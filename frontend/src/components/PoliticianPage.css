@@ -166,28 +166,18 @@
 
 .stance-topic {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 800;
-  color: #aaa;
+  color: #1a1a1a;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 
-.stance-bar-track {
-  width: 100%;
-  height: 8px;
-  background: #ede7de;
-  border: 1.5px solid #ddd6cc;
-}
-
-.stances-coming-soon {
+.stance-label {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-size: 0.65rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: #ccc;
-  text-align: center;
+  font-size: 0.82rem;
+  color: #555;
+  line-height: 1.4;
 }
 
 .score-section {
@@ -234,13 +224,25 @@
 
 .score-track {
   height: 10px;
-  background: #e8e0d5;
+  background: linear-gradient(to right, #b02a2a, #c0622a, #b08a00, #4a773c, #287556);
   border: 2px solid #1a1a1a;
   overflow: hidden;
+  position: relative;
+}
+
+/* Mask that covers the unfilled portion from the right */
+.score-track::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: var(--unfilled);
+  background: #e8e0d5;
 }
 
 .score-fill {
-  height: 100%;
+  display: none;
 }
 
 /* Contradictions section */

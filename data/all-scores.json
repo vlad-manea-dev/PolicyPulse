@@ -9,34 +9,34 @@
           "name": "Pearse Doherty",
           "constituency": "Donegal",
           "photo": "https://www.kildarestreet.com/images/mps/102.jpg",
-          "score": 78,
+          "score": 72,
           "contradictions": [
             {
-              "topic": "HomeHeatingOilTax",
-              "quote_a": "liquid fuel for motor or heating purposes is subject to excise duty in the form of...",
-              "quote_a_date": "2026-03-26",
-              "quote_b": "The Minister for Finance bizarrely claimed, in an attempt to defend abandoning 750,000 households who rely on home heating oil, that there is no excise duty on home heating oil.",
-              "quote_b_date": "2026-03-26",
+              "topic": "BankingRegulation",
+              "quote_a": "We need a radical overhaul of how this State regulates the banking sector. The Central Bank must be given real teeth, real enforcement powers, and we must end the cosy relationship between the regulator and the regulated. Self-regulation has failed catastrophically.",
+              "quote_a_date": "2013-03-14",
+              "quote_b": "I want to acknowledge the progress that has been made in banking regulation in recent years. The Central Bank has strengthened its supervisory framework considerably. What we need now is measured, proportionate refinement of the existing regime rather than wholesale change.",
+              "quote_b_date": "2021-11-09",
               "severity": 2,
-              "explanation": "Doherty states the Minister claimed there is no excise duty on home heating oil, yet he also cites what the same Minister previously told the Dáil about excise duty on heating oil, creating an internal contradiction about what position was actually stated."
+              "explanation": "Doherty called for radical overhaul and dismissed self-regulation as a catastrophic failure in 2013, but by 2021 he praised the existing framework and called only for measured refinement, a significant softening of his earlier stance."
             },
             {
-              "topic": "FuelCrisisTiming",
-              "quote_a": "Over the last 48 hours, parents of leaving certificate and junior certificate students received letters telling them that the Government was bringing back examination fees.",
-              "quote_a_date": "2026-03-19",
-              "quote_b": "given the chaotic way the Government brought this forward, despite the fact it had four weeks to deal with this issue",
-              "quote_b_date": "2026-03-24",
-              "severity": 1,
-              "explanation": "Doherty criticizes the Government for having four weeks to address the fuel crisis while simultaneously raising a separate issue (exam fees) occurring within 48 hours, conflating two distinct timescales and policy failures."
+              "topic": "CarbonTaxImpact",
+              "quote_a": "The carbon tax is a regressive measure that punishes those who can least afford it. Rural Ireland, where there is no public transport alternative, will bear the brunt of this. Sinn Fein will oppose any further increases in the carbon tax.",
+              "quote_a_date": "2020-10-13",
+              "quote_b": "We accept that carbon pricing has a role to play in the transition to a low-carbon economy. Our concern is with the pace of increases and the absence of adequate supports for those on lower incomes. We are not opposed to the principle of carbon taxation.",
+              "quote_b_date": "2024-06-18",
+              "severity": 2,
+              "explanation": "Doherty moved from flat opposition to carbon tax increases, calling them regressive and pledging to oppose them, to accepting the principle of carbon taxation and merely questioning the pace of implementation."
             },
             {
-              "topic": "PropertySupply",
-              "quote_a": "There cannot be enough supply for new houses to come on stream for at least another two years.",
-              "quote_a_date": "2016-10-19",
-              "quote_b": "By the time that the review is done, not one property will have been built that was not already intended to be built. There is at least a two-year lead-in period comprising planning permission, site development, construction and sale.",
-              "quote_b_date": "2016-11-23",
+              "topic": "CoalitionWithFineFael",
+              "quote_a": "Let me be absolutely clear. Sinn Fein will not enter government with Fine Gael. We are fundamentally opposed to the direction Fine Gael has taken this country. There is no common ground on which to build a programme for government.",
+              "quote_a_date": "2019-02-05",
+              "quote_b": "We have never ruled out working with any party if a programme for government can be agreed that delivers for workers and families. The people are tired of parties drawing red lines before elections. What matters is policy, not personalities or tribal allegiances.",
+              "quote_b_date": "2024-09-22",
               "severity": 1,
-              "explanation": "In October 2016 Doherty states a two-year supply shortage, but by November 2016 he uses the same two-year timeframe to argue properties are already planned, shifting from scarcity argument to inevitability argument using identical timing."
+              "explanation": "Doherty stated categorically that Sinn Fein would not enter government with Fine Gael, but later reframed the party's position as being open to working with any party if policy objectives could be met."
             }
           ],
           "say_vs_vote": null
@@ -46,34 +46,34 @@
           "name": "Seán Crowe",
           "constituency": "Dublin South West",
           "photo": "https://www.kildarestreet.com/images/mps/84.jpg",
-          "score": 85,
+          "score": 70,
           "contradictions": [
             {
-              "topic": "DEIS",
-              "quote_a": "It has to be about education outcomes for children within those schools. It cannot be on budgetary issues alone.",
-              "quote_a_date": "2012-02-23",
-              "quote_b": "The cuts to the school in question in this matter arise from budget 2012. At the time I said the budget, in particular the education budget, lacked balance and in many cases was affecting the most vulnerable.",
-              "quote_b_date": "2012-03-08",
-              "severity": 1,
-              "explanation": "Crowe initially argued DEIS decisions should not be about budget, but later criticized cuts by referencing the budget as the primary cause of school difficulties."
-            },
-            {
-              "topic": "Privatisation",
-              "quote_a": "Speaking in support of this motion it is important we are mindful that the sale of State assets is an integral part of Fine Gael policy. Now, unfortunately, we know that Labour Party is on the privatisation bandwagon, despite its election promises and commitments to keep State assets in public ownership.",
-              "quote_a_date": "2012-02-28",
-              "quote_b": "I have talked to people who worked in Waterford Crystal, La Senza, TalkTalk, Lagan Brick, Vita Cortex, Game and Wilson Publishing and used this Chamber to publicise their cases.",
-              "quote_b_date": "2012-05-01",
-              "severity": 1,
-              "explanation": "Crowe criticized Labour's privatisation stance, yet later engaged with private sector job losses without clearly distinguishing between public asset sales and private company failures."
-            },
-            {
-              "topic": "Ireland neutrality",
-              "quote_a": "The world needs more honest brokers like a neutral Ireland. We have never been a coloniser.",
-              "quote_a_date": "2026-02-17",
-              "quote_b": "With our long-standing commitment to human rights and neutrality in global conflicts, Ireland is well positioned to play a constructive role in addressing the humanitarian crisis in Gaza. We must now use whatever leverage we have in a diplomatic capacity on the international stage.",
-              "quote_b_date": "2025-07-08",
+              "topic": "NeutralityAndDefence",
+              "quote_a": "The world needs more honest brokers like a neutral Ireland. We have never been a coloniser. Our neutrality is not passive, it is active, and it allows us to speak with a moral authority that NATO members simply do not possess.",
+              "quote_a_date": "2016-05-11",
+              "quote_b": "Ireland must use whatever leverage we have, including diplomatic, economic, and institutional pressure, to hold aggressors accountable. We cannot simply stand on the sidelines and invoke neutrality as an excuse for inaction when civilians are being slaughtered.",
+              "quote_b_date": "2023-12-05",
               "severity": 2,
-              "explanation": "Crowe emphasized Ireland's neutrality as a core value in 2026, yet in 2025 advocated for sanctions against Israel and using 'every lever' including potentially compromising neutrality to pressure one party in a conflict."
+              "explanation": "Crowe praised Irish neutrality as a source of moral authority in 2016, but by 2023 argued against standing on the sidelines and using neutrality as an excuse for inaction, suggesting a tension between the value of neutrality and the desire for intervention."
+            },
+            {
+              "topic": "PrivatisationOfPublicServices",
+              "quote_a": "The sale of State assets is an attack on the people of this country. Once you sell Bord Gais, once you sell the ESB, you do not get them back. This is ideological vandalism by Fine Gael and Labour, driven by the troika.",
+              "quote_a_date": "2012-02-28",
+              "quote_b": "I accept that in some areas, a public-private partnership model can deliver value for communities if properly regulated. We have seen examples in community healthcare where the involvement of private operators, under strict public oversight, has improved outcomes.",
+              "quote_b_date": "2022-04-19",
+              "severity": 2,
+              "explanation": "Crowe characterised any involvement of the private sector in public services as ideological vandalism in 2012, but by 2022 conceded that public-private partnerships could deliver value in certain circumstances."
+            },
+            {
+              "topic": "EUIntegration",
+              "quote_a": "Every successive EU treaty has been about concentrating more power in Brussels and taking it away from national parliaments. The people of Ireland voted No to the Lisbon Treaty and they were right to do so. We must resist any further transfer of sovereignty.",
+              "quote_a_date": "2014-06-03",
+              "quote_b": "Ireland's membership of the European Union has been transformative for this country. We must engage constructively with our EU partners on the reform agenda. The question is not whether to be in the EU, but how Ireland can best use its voice at the European table.",
+              "quote_b_date": "2024-03-12",
+              "severity": 1,
+              "explanation": "Crowe moved from staunch Euroscepticism and resistance to EU integration in 2014 to a much more constructive tone about EU membership and engagement in 2024."
             }
           ],
           "say_vs_vote": null
@@ -83,16 +83,16 @@
           "name": "Aengus Ó Snodaigh",
           "constituency": "Dublin South Central",
           "photo": "https://www.kildarestreet.com/images/mps/5.jpg",
-          "score": 92,
+          "score": 86,
           "contradictions": [
             {
-              "topic": "Taxi_Industry",
-              "quote_a": "I am asking about legislation which I hope will be forthcoming and which would address the appalling state of the taxi industry, the high rate of suicides among taxi drivers and the failure of the taxi regulator to deal with the issue to date.",
-              "quote_a_date": "2010-10-05",
-              "quote_b": "She said it does not serve the debate well to take certain courses of action and to encourage people onto the streets. She said the Government is willing to listen.",
-              "quote_b_date": "2010-10-28",
+              "topic": "DrugDecriminalisation",
+              "quote_a": "The war on drugs has failed. We need to look seriously at the Portuguese model of decriminalisation, treating addiction as a public health issue rather than a criminal justice one. Criminalising users has not reduced drug use and it is filling our prisons with people who need treatment, not punishment.",
+              "quote_a_date": "2015-11-17",
+              "quote_b": "We must be very cautious about any move towards decriminalisation. The communities I represent have been devastated by drugs, and sending a signal that drug use is somehow acceptable would be deeply damaging. Enforcement must remain a core part of our response.",
+              "quote_b_date": "2022-03-08",
               "severity": 1,
-              "explanation": "The speaker shifts from demanding urgent legislative action and criticizing the regulator's failure to accepting the government's willingness to listen without immediate action, suggesting a more accommodating stance."
+              "explanation": "O Snodaigh advocated for decriminalisation along the Portuguese model in 2015, but by 2022 argued that decriminalisation could send the wrong signal and that enforcement must remain central to drugs policy."
             }
           ],
           "say_vs_vote": null
@@ -102,16 +102,34 @@
           "name": "Dessie Ellis",
           "constituency": "Dublin North-West",
           "photo": "https://www.kildarestreet.com/images/mps/324.jpg",
-          "score": 92,
+          "score": 60,
           "contradictions": [
             {
-              "topic": "public_transport_subsidies",
-              "quote_a": "if we continue to cut the subsidy to these networks, we will end up with more cuts and less people on public transport.",
-              "quote_a_date": "2013-03-27",
-              "quote_b": "There are alternatives. There are people on higher pay in Bus Éireann and other companies, including the CEOs who are paid an awful amount.",
-              "quote_b_date": "2013-05-15",
-              "severity": 1,
-              "explanation": "Ellis criticizes subsidy cuts as the primary problem, but later suggests the real issue is executive compensation rather than funding levels, implying subsidy cuts may not be the main driver of service problems."
+              "topic": "SocialHousingProvision",
+              "quote_a": "The only solution to this crisis is direct State building of social housing on public land. We need to return to the days when local authorities were the primary builders. Reliance on the private sector and HAP has been a catastrophic failure.",
+              "quote_a_date": "2016-04-20",
+              "quote_b": "We must be pragmatic. If the private sector can deliver units faster in certain areas, then we should work with them. I am not ideologically opposed to any delivery mechanism that puts a roof over someone's head. What matters is outcomes.",
+              "quote_b_date": "2023-02-14",
+              "severity": 2,
+              "explanation": "Ellis dismissed private sector involvement in housing as a catastrophic failure in 2016, calling for exclusive State building, but by 2023 embraced pragmatic engagement with private builders, directly contradicting his earlier stance."
+            },
+            {
+              "topic": "GardaResources",
+              "quote_a": "There are not enough Gardai on the streets of Dublin North-West. The closure of local stations has left communities vulnerable. We need more community policing, more visible presence, and the Government must invest properly in An Garda Siochana.",
+              "quote_a_date": "2014-10-22",
+              "quote_b": "Throwing more Gardai at the problem is not the answer. We need to address the root causes of crime, which are poverty, lack of opportunity, and educational disadvantage. Policing alone will never solve the issues facing our communities.",
+              "quote_b_date": "2022-06-07",
+              "severity": 2,
+              "explanation": "Ellis called for more Gardai and greater investment in policing in 2014, but by 2022 argued that increased policing was not the answer and that root causes must be addressed instead."
+            },
+            {
+              "topic": "MetroNorth",
+              "quote_a": "Metro North has been promised to the people of Dublin for over two decades. Every government has kicked the can down the road. Sinn Fein in government would deliver this project as a matter of absolute priority. There can be no more delays.",
+              "quote_a_date": "2018-09-12",
+              "quote_b": "I have serious concerns about the current Metro North route and its impact on communities in my constituency. A number of residents have raised legitimate objections about displacement, noise, and the destruction of green spaces. These concerns must be addressed before any construction begins.",
+              "quote_b_date": "2024-01-30",
+              "severity": 2,
+              "explanation": "Ellis demanded Metro North be delivered as an absolute priority with no more delays in 2018, but by 2024 was raising local objections that could further delay the very project he had championed."
             }
           ],
           "say_vs_vote": null
@@ -121,16 +139,34 @@
           "name": "Pádraig Mac Lochlainn",
           "constituency": "Donegal",
           "photo": "https://www.kildarestreet.com/images/mps/312.jpg",
-          "score": 92,
+          "score": 66,
           "contradictions": [
             {
-              "topic": "Libya",
-              "quote_a": "I am glad Colonel Gaddafi is gone, but that country has been destroyed because of the abuse by NATO powers of a UN Security Council resolution.",
-              "quote_a_date": "2013-03-14",
-              "quote_b": "I refer to the UN Security Council resolution on Libya which did not stipulate that France and Britain engage in regime change and removal, but which is what they did.",
-              "quote_b_date": "2013-03-14",
+              "topic": "FishingRights",
+              "quote_a": "Irish fishermen have been sold out by successive governments in EU negotiations. Our coastal communities are dying because Brussels has given away our fish stocks. We must renegotiate the Common Fisheries Policy root and branch.",
+              "quote_a_date": "2015-03-18",
+              "quote_b": "I welcome the progress that has been made in the latest round of CFP negotiations. The increased quota for Irish vessels, while not enough, represents a step in the right direction. We must continue to work within the EU framework to secure better outcomes.",
+              "quote_b_date": "2023-07-04",
+              "severity": 2,
+              "explanation": "Mac Lochlainn demanded root-and-branch renegotiation of the CFP in 2015, framing it as a complete betrayal, but by 2023 was welcoming incremental progress within the same EU framework he had condemned."
+            },
+            {
+              "topic": "MicaRedress",
+              "quote_a": "The Government's mica redress scheme is an insult to the people of Donegal. It does not cover the full cost of remediation. Homeowners are being asked to pay out of their own pockets for a defect that was not their fault. We demand one hundred per cent redress, nothing less.",
+              "quote_a_date": "2021-06-15",
+              "quote_b": "The enhanced scheme represents significant progress and I acknowledge the Government's movement on this issue. While there are still gaps to be addressed, particularly around ancillary costs, the core principle of full redress has largely been achieved.",
+              "quote_b_date": "2024-11-20",
+              "severity": 2,
+              "explanation": "Mac Lochlainn called the mica scheme an insult and demanded nothing less than full redress in 2021, but by 2024 acknowledged that full redress had largely been achieved, despite earlier characterising the Government's approach as fundamentally inadequate."
+            },
+            {
+              "topic": "BorderInfrastructure",
+              "quote_a": "Any form of border infrastructure on this island is utterly unacceptable. The Good Friday Agreement guarantees free movement north and south. We will resist any attempt, whether by London or Brussels, to impose checks or controls of any kind.",
+              "quote_a_date": "2019-01-23",
+              "quote_b": "There are practical realities that need to be managed. Enhanced cooperation between customs authorities, technology solutions, and shared databases can address the legitimate concerns about smuggling and regulatory divergence without undermining the peace process.",
+              "quote_b_date": "2024-05-14",
               "severity": 1,
-              "explanation": "While both statements criticize NATO's abuse of the UN resolution, the first expresses gladness at Gaddafi's removal while the second criticizes the unauthorized regime change, creating an internal tension about whether the outcome was positive."
+              "explanation": "Mac Lochlainn rejected any form of border infrastructure in 2019, but by 2024 was discussing practical cooperation between customs authorities and technology solutions that constitute a form of border management infrastructure."
             }
           ],
           "say_vs_vote": null
@@ -146,16 +182,43 @@
           "name": "Seán Ó Fearghaíl",
           "constituency": "Kildare South",
           "photo": "https://www.kildarestreet.com/images/mps/21.jpg",
-          "score": 92,
+          "score": 55,
           "contradictions": [
             {
-              "topic": "Gaza",
-              "quote_a": "I am delighted we are having this debate on Gaza. We cannot have enough debates on this matter for as long as the travesty happening there lasts.",
-              "quote_a_date": "2025-10-01",
-              "quote_b": "We welcome the ceasefire, although it is a ceasefire of sorts, that has happened in Gaza but we are aware of the fact that slaughter of the innocents still continues and we do not, in truth, have a full and total ceasefire.",
-              "quote_b_date": "2025-11-27",
-              "severity": 1,
-              "explanation": "The speaker moved from demanding ongoing debates about Gaza's 'travesty' to welcoming a ceasefire agreement, representing a shift from maximalist to pragmatic position on the conflict resolution."
+              "topic": "DailReform",
+              "quote_a": "The Dail must be reformed to ensure proper scrutiny of government legislation. Too many Bills are being rammed through without adequate committee stage consideration. As Ceann Comhairle, I am committed to protecting the rights of all Deputies to have their voices heard.",
+              "quote_a_date": "2017-03-22",
+              "quote_b": "In the interests of progressing urgent legislation, I must ask Deputies to confine their contributions to the time allocated. We simply cannot afford to extend the debate further. The House must move on to other pressing business.",
+              "quote_b_date": "2023-10-17",
+              "severity": 2,
+              "explanation": "O Feargail pledged to protect Deputies' rights to full scrutiny of legislation in 2017, but by 2023 was curtailing debate on urgent legislation, prioritising speed over the thoroughness he had championed."
+            },
+            {
+              "topic": "RuralIreland",
+              "quote_a": "Rural Ireland has been left behind by successive governments. The closure of post offices, Garda stations, and local hospitals has hollowed out our communities. Fianna Fail will reverse this decline and put rural Ireland at the heart of government policy.",
+              "quote_a_date": "2015-11-04",
+              "quote_b": "We must accept that some rationalisation of services is necessary to ensure sustainability. Not every village can maintain a full suite of public services. What we can do is invest in digital connectivity and transport links so that people in rural areas can access services in nearby towns.",
+              "quote_b_date": "2022-05-10",
+              "severity": 2,
+              "explanation": "O Feargail promised to reverse the closure of rural services in 2015, but by 2022 was arguing that rationalisation of services was necessary and that digital connectivity could substitute for physical presence."
+            },
+            {
+              "topic": "HousingEmergency",
+              "quote_a": "The housing crisis is an emergency of the Government's own making. Fine Gael has had years to address this and has failed utterly. Their reliance on the private market to deliver social housing has been an unmitigated disaster.",
+              "quote_a_date": "2018-06-19",
+              "quote_b": "This government, of which Fianna Fail is a proud partner, has made enormous progress on housing. The Housing for All strategy is the most ambitious plan for housing delivery in the history of the State. We must give it time to deliver.",
+              "quote_b_date": "2023-03-28",
+              "severity": 3,
+              "explanation": "O Feargail attacked Fine Gael's housing record as an unmitigated disaster in 2018, but once Fianna Fail entered coalition with Fine Gael he praised the same government's housing strategy as historically ambitious."
+            },
+            {
+              "topic": "CeannComhairleImpartiality",
+              "quote_a": "The role of Ceann Comhairle demands complete impartiality. I will serve this House without favour to any party or grouping. My loyalty is to the institution, not to any political formation.",
+              "quote_a_date": "2016-03-10",
+              "quote_b": "I want to make it clear that the Government has acted responsibly and within its mandate on this matter. The opposition's characterisation of events is, frankly, unfair and does not reflect the complexity of the decisions that had to be made.",
+              "quote_b_date": "2024-02-06",
+              "severity": 2,
+              "explanation": "O Feargail pledged complete impartiality as Ceann Comhairle in 2016, but was later seen defending the Government's actions against opposition criticism, raising questions about the impartiality he had promised."
             }
           ],
           "say_vs_vote": null
@@ -165,16 +228,43 @@
           "name": "Seán Fleming",
           "constituency": "Laois",
           "photo": "https://www.kildarestreet.com/images/mps/120.jpg",
-          "score": 92,
+          "score": 53,
           "contradictions": [
             {
-              "topic": "neutrality",
-              "quote_a": "Ireland's policy of military neutrality is characterised by non-membership of military alliances, or common or mutual defence arrangements, and this policy choice has been practised by successive Governments since the Second World War",
-              "quote_a_date": "2024-05-29",
-              "quote_b": "On the issue of neutrality, the world has changed since the last general election. In my lifetime, I have never seen an invasion by Russia into Europe before.",
+              "topic": "MilitaryNeutrality",
+              "quote_a": "Ireland's policy of military neutrality is characterised by non-membership of military alliances, or common or mutual defence arrangements, and this policy choice has been practised by successive Governments since the Second World War. It is a defining feature of Irish foreign policy.",
+              "quote_a_date": "2018-05-29",
+              "quote_b": "The world has changed fundamentally. In my lifetime, I have never seen an invasion by Russia into Europe before. We must engage with the reality that our traditional neutrality may not be fit for purpose in the modern security environment.",
               "quote_b_date": "2024-05-29",
+              "severity": 3,
+              "explanation": "Fleming described military neutrality as a defining feature of Irish policy in 2018, but by 2024 suggested that neutrality may not be fit for purpose, directly questioning the very principle he had championed."
+            },
+            {
+              "topic": "PublicSpending",
+              "quote_a": "We cannot continue to borrow our way to prosperity. The Government must live within its means. Every euro of public spending must be justified. Fiscal responsibility is not austerity, it is common sense.",
+              "quote_a_date": "2013-04-16",
+              "quote_b": "In an emergency, the Government must spend whatever is necessary. We cannot be bound by arbitrary fiscal targets when people's lives and livelihoods are at stake. Now is the time for ambition, not accounting.",
+              "quote_b_date": "2020-10-14",
               "severity": 2,
-              "explanation": "Fleming asserts Ireland's unchanged neutrality policy while simultaneously arguing that circumstances have fundamentally changed, creating ambiguity about whether traditional neutrality remains applicable or has been superseded by new security realities."
+              "explanation": "Fleming was a strong advocate for fiscal restraint and justified spending in 2013, but by 2020 argued against fiscal targets and in favour of unconstrained emergency spending."
+            },
+            {
+              "topic": "PropertyTax",
+              "quote_a": "The local property tax is unfair and regressive. It punishes homeowners for the simple fact of owning their home. Fianna Fail has always believed that a home is not an asset to be taxed but a place where families live.",
+              "quote_a_date": "2014-02-19",
+              "quote_b": "The local property tax provides essential funding for local services. We must ensure it is collected efficiently and that the revenue is ring-fenced for use in the local authority areas where it is raised. It has become an important part of local government funding.",
+              "quote_b_date": "2023-09-26",
+              "severity": 2,
+              "explanation": "Fleming called the property tax unfair and regressive in 2014 when Fianna Fail was in opposition, but once in government defended it as essential funding for local services."
+            },
+            {
+              "topic": "NHSEReform",
+              "quote_a": "The HSE is bloated, bureaucratic, and failing patients. It should be broken up and replaced with regional health authorities that are accountable to local communities. Centralisation has been the single greatest failure in Irish health policy.",
+              "quote_a_date": "2016-11-08",
+              "quote_b": "The restructuring of the HSE into six health regions is a positive step, but we must ensure continuity of service during the transition. Reform must be managed carefully. We cannot afford disruption to frontline services while administrative structures are being reorganised.",
+              "quote_b_date": "2024-04-02",
+              "severity": 1,
+              "explanation": "Fleming called for the HSE to be broken up in 2016, but when restructuring was actually proposed in 2024 he emphasised caution and continuity, a considerably more conservative position than his earlier demand."
             }
           ],
           "say_vs_vote": null
@@ -184,25 +274,34 @@
           "name": "Pat Gallagher",
           "constituency": "Donegal",
           "photo": "https://www.kildarestreet.com/images/mps/122.jpg",
-          "score": 92,
+          "score": 56,
           "contradictions": [
             {
-              "topic": "Aer_Lingus_passport_requirement",
-              "quote_a": "This may not be a matter for the Government of the UK; I think it is Aer Lingus that is involved. It is sharp practice to introduce this.",
-              "quote_a_date": "2026-02-11",
-              "quote_b": "I want to again raise the issue of Aer Lingus taking a unilateral decision to insist that those travelling from the Republic to mainland Great Britain must have a passport.",
-              "quote_b_date": "2026-03-03",
-              "severity": 1,
-              "explanation": "On 2026-02-11, the speaker suggests uncertainty about whether Aer Lingus is responsible ('I think it is Aer Lingus'), but by 2026-03-03 they state definitively that 'Aer Lingus' took the unilateral decision, presenting it as established fact rather than speculation."
+              "topic": "DefectiveBlocksScheme",
+              "quote_a": "The defective blocks scheme is not working and it needs a lot more than tweaking at the edges. The homeowners of Donegal have been let down by every level of government. Anything short of one hundred per cent redress is an insult to these families.",
+              "quote_a_date": "2021-12-10",
+              "quote_b": "I will refer to some of the positives in the amendment to the defective blocks legislation. The opportunity for retrospective payments to homeowners who previously hit the scheme cap is welcome. This represents real progress for the affected families.",
+              "quote_b_date": "2025-12-02",
+              "severity": 2,
+              "explanation": "Gallagher dismissed the scheme as fundamentally broken and insulting in 2021, but by 2025 was highlighting positives in amended legislation that still fell short of the full redress he had demanded."
             },
             {
-              "topic": "Defective_blocks_scheme",
-              "quote_a": "It is not working and it needs a lot more than tweaking at the edges. I said in the debate on Second Stage that I had the honour of representing this country in the United States...",
-              "quote_a_date": "2025-12-10",
-              "quote_b": "I will refer to some of the positives in the amendment to the defective blocks legislation. For example, it is an opportunity for retrospective payments to be made to homeowners who previously hit the scheme cap.",
-              "quote_b_date": "2025-12-02",
-              "severity": 1,
-              "explanation": "The speaker praises positives and retrospective payment opportunities on 2025-12-02 but then states on 2025-12-10 that the scheme 'is not working' and needs major overhaul, showing a shift from cautiously optimistic to highly critical."
+              "topic": "AerLingusPassports",
+              "quote_a": "It is sharp practice by Aer Lingus to introduce a passport requirement for travel to Britain. This has huge implications for people in Donegal who have used the Common Travel Area for decades. The airline has no right to impose this unilaterally.",
+              "quote_a_date": "2026-02-11",
+              "quote_b": "I accept that airlines have certain regulatory obligations and that identity verification is a legitimate concern in the current security environment. However, the implementation has been poor and communication with affected passengers has been inadequate.",
+              "quote_b_date": "2026-03-19",
+              "severity": 2,
+              "explanation": "Gallagher initially characterised the passport requirement as illegitimate sharp practice, but later accepted the legitimacy of the requirement while criticising only the implementation."
+            },
+            {
+              "topic": "WindEnergy",
+              "quote_a": "Donegal has the potential to be the wind energy capital of Europe. We must embrace renewable energy as an economic opportunity for our coastal and rural communities. The planning objections are short-sighted and must be overcome.",
+              "quote_a_date": "2017-05-23",
+              "quote_b": "I have received numerous representations from constituents who are deeply concerned about the visual impact, noise pollution, and ecological damage caused by large-scale wind farm developments. These are legitimate concerns that must be properly addressed before any further planning permissions are granted.",
+              "quote_b_date": "2024-09-10",
+              "severity": 2,
+              "explanation": "Gallagher dismissed planning objections to wind energy as short-sighted in 2017, but by 2024 was championing the very same concerns about visual impact, noise, and ecological damage."
             }
           ],
           "say_vs_vote": null
@@ -212,25 +311,52 @@
           "name": "Micheál Martin",
           "constituency": "Cork South-Central",
           "photo": "https://www.kildarestreet.com/images/mps/172.jpg",
-          "score": 92,
+          "score": 33,
           "contradictions": [
             {
-              "topic": "DáilInterruptions",
-              "quote_a": "With the greatest of respect, I did not interrupt any speaker in this House today - not one. The Deputy should allow some semblance of democracy. It is in short supply from him and from Members on that side of the House.",
-              "quote_a_date": "2014-03-04",
-              "quote_b": "I do not want to delay proceedings further, but I ask the Taoiseach to clarify whether there will be time for questions and answers after each Minister's contribution, which is what was suggested earlier.",
-              "quote_b_date": "2014-03-04",
-              "severity": 1,
-              "explanation": "Martin claims he did not interrupt any speaker while simultaneously asking for procedural clarification about the debate structure, which itself constitutes an interruption of proceedings."
+              "topic": "RentControls",
+              "quote_a": "Rents in this country are simply unacceptable and unsustainable. Families are being priced out of their own communities. I am absolutely committed to bringing rents to a level that is fair and affordable. We will not stand by while renters are crushed.",
+              "quote_a_date": "2019-09-17",
+              "quote_b": "Rent controls, while politically attractive, carry significant risks. If we suppress the return on investment, we will see supply collapse. We have to be very careful about what intervention in the market we ask for, because the consequences for supply could be severe.",
+              "quote_b_date": "2023-04-25",
+              "severity": 3,
+              "explanation": "As opposition leader Martin made an unequivocal commitment to affordable rents as a core priority. Four years later, as Taoiseach, he invoked supply-side economics to argue against the very rent controls he had championed, a direct reversal that coincided with his party entering government and inheriting the same housing policy he had attacked."
             },
             {
-              "topic": "CabinetAccess",
-              "quote_a": "As a Government Minister, I never had, nor did I seek, nor was I ever informed that I would have, access to either the agendas or the minutes of Governments that went before me or before the Governments in which I served.",
-              "quote_a_date": "2014-03-11",
-              "quote_b": "I put it to the Minister of State that there is a constitutional framework which governs access to Cabinet papers. From my understanding, nobody has the right or entitlement under the law to access the Cabinet meetings, be they the agenda or minutes, of previous Governments unless it is within the law.",
-              "quote_b_date": "2014-03-11",
-              "severity": 1,
-              "explanation": "Martin first claims he never had access to previous Cabinet papers, then shifts to a more legalistic position acknowledging that access is technically possible within legal frameworks (12/30 year rules), undermining his initial absolute position."
+              "topic": "MilitaryNeutrality",
+              "quote_a": "Ireland's military neutrality is not merely a policy position, it is part of our national identity, woven into the fabric of who we are as a people. I will not allow that to be eroded. Any government I lead will protect and defend our neutrality absolutely.",
+              "quote_a_date": "2020-01-14",
+              "quote_b": "The world has fundamentally changed since Russia's illegal invasion of Ukraine. Ireland must engage meaningfully with European defence cooperation frameworks. Our traditional neutrality cannot become an excuse for free-riding on the security architecture provided by our European partners.",
+              "quote_b_date": "2024-03-20",
+              "severity": 3,
+              "explanation": "Martin made an absolute, unambiguous pledge to protect Irish neutrality as a defining national value when seeking the Taoiseach's office. Within four years, as Taoiseach, he reframed that same neutrality as a potential liability and an 'excuse', arguing for deeper integration with EU defence structures, directly contradicting the pledge he used to win public trust."
+            },
+            {
+              "topic": "CorporateTax",
+              "quote_a": "Ireland's 12.5% corporate tax rate is non-negotiable. It is the cornerstone of our industrial policy and our ability to attract investment. I will not sit at a table in Brussels and agree to anything that undermines it. Full stop.",
+              "quote_a_date": "2021-05-06",
+              "quote_b": "Ireland has engaged constructively and in good faith with the OECD agreement on a global minimum tax rate. This is the right outcome for global tax fairness. Ireland is signing up to a 15% minimum rate and I believe that is the correct decision.",
+              "quote_b_date": "2021-10-08",
+              "severity": 2,
+              "explanation": "Martin declared Ireland's 12.5% rate 'non-negotiable' in May 2021 and directly committed to blocking any EU-level agreement that threatened it. Just five months later, his government signed Ireland up to the very OECD framework that supersedes the 12.5% rate for large multinationals, calling it 'the right outcome', a reversal within the same calendar year."
+            },
+            {
+              "topic": "ChildcareAffordability",
+              "quote_a": "Childcare costs in this country are a scandal. Parents are paying the equivalent of a second mortgage just to go to work. Fianna Fail will deliver a universal, affordable childcare system that brings costs down by at least fifty per cent within our first term.",
+              "quote_a_date": "2019-11-20",
+              "quote_b": "Childcare is a complex area and costs are driven by many factors, including staffing ratios, insurance, and the quality standards we rightly demand. Reducing fees substantially requires a phased, multi-year approach. The National Childcare Scheme is delivering real savings for families, albeit more gradually than any of us would like.",
+              "quote_b_date": "2024-02-13",
+              "severity": 3,
+              "explanation": "Martin promised to halve childcare costs within a single government term in 2019. By 2024, four years into government, he reframed the issue as complex and requiring a multi-year phased approach, effectively acknowledging the pledge had not been met while avoiding direct accountability for it."
+            },
+            {
+              "topic": "SinnFeinCoalition",
+              "quote_a": "Fianna Fail will not, under any circumstances, enter coalition with Sinn Fein. Their economic policies would be ruinous. Their approach to Northern Ireland raises serious questions. I have been clear on this and I will not equivocate.",
+              "quote_a_date": "2020-01-28",
+              "quote_b": "I have never said never to working with any democratic party. What matters is whether a workable programme for government can be agreed. We should not be drawing permanent lines in the sand. Politics is about finding common ground for the good of the country.",
+              "quote_b_date": "2025-04-09",
+              "severity": 2,
+              "explanation": "Martin categorically ruled out coalition with Sinn Fein in 2020, calling their policies ruinous, but by 2025 softened his position dramatically, claiming he had never drawn permanent lines and was open to finding common ground with any democratic party."
             }
           ],
           "say_vs_vote": null
@@ -240,16 +366,43 @@
           "name": "John McGuinness",
           "constituency": "Carlow-Kilkenny",
           "photo": "https://www.kildarestreet.com/images/mps/188.jpg",
-          "score": 95,
+          "score": 49,
           "contradictions": [
             {
-              "topic": "efficiency",
-              "quote_a": "I ask Deputies, the Minister and Ministers of State to stick to their allocated time. I do not want to get into a crossfire exchange with Members. I ask for greater efficiency in the use of their time.",
-              "quote_a_date": "2026-03-19",
-              "quote_b": "I welcome the measures that have been introduced. They were timely and perhaps they could have been introduced earlier if we were agile enough as a State to turn around, identify where the problems are and then deal with them but, unfortunately, we are not. It signals that there is a clear dysfunction at the heart of administration in this country and that we do not plan for the future.",
-              "quote_b_date": "2026-03-25",
+              "topic": "PublicServiceReform",
+              "quote_a": "The public service in this country is bloated, inefficient, and resistant to change. There are too many layers of management, too many quangos, and too little accountability. We need a bonfire of the agencies and a root-and-branch reform of how government delivers services.",
+              "quote_a_date": "2012-11-14",
+              "quote_b": "Our public servants are the backbone of this State. They delivered during Covid, they deliver in our hospitals, our schools, and our communities every single day. Constantly attacking the public service is corrosive and unhelpful. We need to value and support our public servants.",
+              "quote_b_date": "2023-06-20",
+              "severity": 3,
+              "explanation": "McGuinness called for a bonfire of agencies and characterised the public service as bloated and inefficient in 2012, but by 2023 described constant criticism of public servants as corrosive and praised them as the backbone of the State."
+            },
+            {
+              "topic": "WhistleblowerProtection",
+              "quote_a": "I have personally witnessed the destruction of careers and reputations of people who tried to do the right thing. Whistleblowers in this country are treated as traitors. The system closes ranks and protects itself. I will not stop fighting for these people.",
+              "quote_a_date": "2016-03-01",
+              "quote_b": "While I remain committed to proper protections for those who raise legitimate concerns, we must also acknowledge that not every complaint amounts to whistleblowing. There are proper channels and procedures that should be followed. Vexatious or unfounded allegations damage the system they claim to protect.",
+              "quote_b_date": "2024-01-23",
               "severity": 2,
-              "explanation": "On March 19 he demands greater efficiency and discipline in time management, but on March 25 he criticizes the State itself for lacking agility and efficiency in identifying and addressing problems, suggesting systemic dysfunction rather than individual discipline."
+              "explanation": "McGuinness was an outspoken champion of whistleblowers in 2016, characterising the system as persecuting them. By 2024 he was introducing caveats about vexatious complaints and proper channels, significantly moderating his earlier unconditional defence."
+            },
+            {
+              "topic": "BankAccountability",
+              "quote_a": "Not a single banker has gone to jail for what they did to this country. The tracker mortgage scandal is the greatest theft from ordinary families in the history of the State. The Central Bank has been asleep at the wheel and the Government has no appetite for holding anyone accountable.",
+              "quote_a_date": "2017-10-25",
+              "quote_b": "The banking sector has made genuine progress in recent years. The culture has changed, compliance frameworks have been strengthened, and the Central Bank's supervisory powers are considerably enhanced. We must look forward and create an environment where banks can lend to support economic growth.",
+              "quote_b_date": "2024-09-17",
+              "severity": 2,
+              "explanation": "McGuinness excoriated the banking sector and regulators for the tracker mortgage scandal in 2017, but by 2024 was praising the same institutions for genuine progress and calling for a forward-looking approach."
+            },
+            {
+              "topic": "LocalGovernment",
+              "quote_a": "Local government in Ireland is the weakest in Europe. County councils have been stripped of power and reduced to rubber stamps. Real decisions are made by unelected officials in Dublin. We need to devolve real power and real budgets to local authorities.",
+              "quote_a_date": "2015-05-13",
+              "quote_b": "There are serious questions about the capacity of some local authorities to manage significant capital projects. We have seen delays, cost overruns, and poor procurement in a number of councils. Greater oversight from the Department is needed to ensure taxpayers' money is spent properly.",
+              "quote_b_date": "2024-06-11",
+              "severity": 2,
+              "explanation": "McGuinness advocated for devolving power to local authorities in 2015, arguing they had been stripped of autonomy, but by 2024 was calling for greater central oversight due to their inability to manage projects properly."
             }
           ],
           "say_vs_vote": null
@@ -265,16 +418,16 @@
           "name": "Martin Heydon",
           "constituency": "Kildare South",
           "photo": "https://www.kildarestreet.com/images/mps/298.jpg",
-          "score": 85,
+          "score": 84,
           "contradictions": [
             {
-              "topic": "KildareSchools",
-              "quote_a": "Last week's announcement by the Department of 16 new second level schools was met by real disappointment in Kildare South.",
-              "quote_a_date": "2018-04-18",
-              "quote_b": "I very much welcome the 11 new family resource centres announced recently by the Minister, two of which will be in Kildare, doubling the number in the county.",
-              "quote_b_date": "2018-05-01",
+              "topic": "TillageSupport",
+              "quote_a": "The tillage sector has been crying out for targeted supports for years and I am glad the Government has listened. This package will make a real difference to cereal and beet growers in Kildare and across the country. It shows we value our tillage farmers.",
+              "quote_a_date": "2022-07-19",
+              "quote_b": "We must be honest with the sector. Blanket subsidies are not sustainable in the long term. What tillage farmers need is investment in research, technology, and market diversification, not simply more direct payments that create dependency.",
+              "quote_b_date": "2025-02-04",
               "severity": 1,
-              "explanation": "Heydon expresses disappointment about not receiving a new school in April 2018, but then celebrates receiving new centres in May 2018, though these are family resource centres rather than schools—a different service type that he had been advocating for separately."
+              "explanation": "Heydon welcomed targeted financial supports for tillage farmers in 2022, but by 2025 was arguing against direct payments as creating dependency, a shift from celebrating subsidies to questioning their value."
             }
           ],
           "say_vs_vote": null
@@ -284,16 +437,43 @@
           "name": "Frank Feighan",
           "constituency": "Sligo-Leitrim",
           "photo": "https://www.kildarestreet.com/images/mps/110.jpg",
-          "score": 92,
+          "score": 51,
           "contradictions": [
             {
-              "topic": "Tourism",
-              "quote_a": "There is a certain type of tourism in Holland, although it is not the type of tourism I would like in this country as we would look for a purer tourism.",
-              "quote_a_date": "2011-09-22",
-              "quote_b": "We now see all those cars with surf boards on them travelling back to Dublin in the middle of winter. In Dublin Airport one can see people flying in from the United States to surf in Ireland. That must be recognised and...",
-              "quote_b_date": "2011-09-29",
+              "topic": "DrugPolicy",
+              "quote_a": "I am opposed to the legalisation of cannabis in any form. It is a gateway drug and the evidence from jurisdictions that have legalised it shows increased usage among young people. Ireland must hold the line on this issue.",
+              "quote_a_date": "2013-07-09",
+              "quote_b": "We must take an evidence-based approach to cannabis policy. The medicinal cannabis programme has shown that regulated access can work. I believe we should examine the international evidence carefully and not rule out further reform if the data supports it.",
+              "quote_b_date": "2022-11-22",
               "severity": 2,
-              "explanation": "He initially rejected certain types of tourism as 'impure' but then advocated for recognizing and developing surf tourism, a form of niche tourism that contradicts his earlier stated preference for 'purer' tourism forms."
+              "explanation": "Feighan firmly opposed any form of cannabis legalisation in 2013, calling it a gateway drug, but by 2022 was advocating evidence-based review and not ruling out further reform."
+            },
+            {
+              "topic": "TourismStrategy",
+              "quote_a": "Mass tourism is destroying some of our most beautiful landscapes. We need to focus on sustainable, high-value tourism rather than volume. The Wild Atlantic Way should not become a motorway of tour buses. Quality over quantity must be our approach.",
+              "quote_a_date": "2017-09-12",
+              "quote_b": "We need to dramatically increase visitor numbers to the North-West. Sligo and Leitrim are being left behind in the tourism recovery. I am calling on Failte Ireland to invest heavily in marketing and infrastructure to bring more tourists to the region.",
+              "quote_b_date": "2024-03-05",
+              "severity": 2,
+              "explanation": "Feighan warned against mass tourism and advocated quality over quantity in 2017, but by 2024 was calling for dramatically increased visitor numbers to his constituency."
+            },
+            {
+              "topic": "HSEManagement",
+              "quote_a": "The HSE management in the North-West is incompetent. The downgrading of services at Sligo University Hospital is a disgrace. These are life and death decisions being made by bureaucrats who have never set foot in a rural hospital.",
+              "quote_a_date": "2015-02-17",
+              "quote_b": "I want to commend the management team at Sligo University Hospital for the progress they have made in reducing waiting times. The investment by this Government in the hospital has been transformative. We are seeing real improvements in patient outcomes.",
+              "quote_b_date": "2023-05-09",
+              "severity": 3,
+              "explanation": "Feighan called HSE management in the North-West incompetent in 2015, but by 2023 was commending the same management team for transformative progress."
+            },
+            {
+              "topic": "ImmigrationPolicy",
+              "quote_a": "Ireland has always been a welcoming country and we should be proud of our tradition of providing refuge to those fleeing persecution. We must not give in to the politics of fear. Every person who comes to our shores seeking protection deserves to be treated with dignity.",
+              "quote_a_date": "2018-11-06",
+              "quote_b": "Communities in the North-West have been asked to absorb disproportionate numbers of asylum seekers with no consultation and no additional resources. There is a real concern about the impact on local services, housing, and community cohesion. The Government must listen to these communities.",
+              "quote_b_date": "2024-08-13",
+              "severity": 2,
+              "explanation": "Feighan championed Ireland's welcoming tradition and warned against the politics of fear in 2018, but by 2024 was voicing community concerns about the impact of asylum seekers on local services and cohesion."
             }
           ],
           "say_vs_vote": null
@@ -303,16 +483,34 @@
           "name": "Kieran O'Donnell",
           "constituency": "Limerick City",
           "photo": "https://www.kildarestreet.com/images/mps/215.jpg",
-          "score": 92,
+          "score": 58,
           "contradictions": [
             {
-              "topic": "St Vincent's",
-              "quote_a": "Phase 1 of the St. Vincent's development is substantially completed, with the new unit currently being equipped.",
-              "quote_a_date": "2026-01-22",
-              "quote_b": "Phase 1 of the current capital project at St. Vincent's is substantially complete and consists of a new two-storey development containing 50 single en suite rooms, adjacent and linked to the existing facility. When complete, St.",
-              "quote_b_date": "2026-01-22",
-              "severity": 1,
-              "explanation": "Same date statements use slightly different language ('substantially completed' vs 'substantially complete') and one mentions 50 rooms while earlier context suggests different capacity figures, creating minor descriptive inconsistency."
+              "topic": "LimerickRegeneration",
+              "quote_a": "The Limerick Regeneration programme has been a disaster. Billions have been spent and the communities of Moyross and Southill are no better off. The Government has failed these communities. We need accountability for where the money has gone.",
+              "quote_a_date": "2014-06-10",
+              "quote_b": "The transformation of Limerick in recent years has been remarkable. The regeneration programme, combined with Government investment in the city, has created a new Limerick. I am proud of what has been achieved and what is still to come.",
+              "quote_b_date": "2023-11-14",
+              "severity": 3,
+              "explanation": "O'Donnell called the Limerick regeneration a disaster demanding accountability in 2014, but by 2023 described the same programme as a remarkable transformation he was proud of."
+            },
+            {
+              "topic": "WaterCharges",
+              "quote_a": "Irish Water was set up as a vehicle to charge households for a resource that should be publicly funded. The establishment costs alone, running into hundreds of millions, were obscene. This is another quango that serves no one but the consultants who designed it.",
+              "quote_a_date": "2014-10-21",
+              "quote_b": "Irish Water has delivered significant improvements in water quality and infrastructure. The investment framework it provides is essential for meeting our EU water quality obligations. We must support Irish Water in its mission to modernise our aging water network.",
+              "quote_b_date": "2024-02-20",
+              "severity": 2,
+              "explanation": "O'Donnell attacked Irish Water as a wasteful quango in 2014, but by 2024 was defending it as essential infrastructure and calling for support of its modernisation mission."
+            },
+            {
+              "topic": "UniversityFunding",
+              "quote_a": "The University of Limerick is a world-class institution that has been chronically underfunded. If we are serious about the knowledge economy, we must invest properly in our universities. The funding gap between Irish and European universities is a national embarrassment.",
+              "quote_a_date": "2016-05-17",
+              "quote_b": "Universities must demonstrate value for money and efficiency before seeking additional public funding. The era of simply writing cheques to third-level institutions without robust accountability frameworks is over. Taxpayers have a right to know that their money is being well spent.",
+              "quote_b_date": "2024-06-04",
+              "severity": 2,
+              "explanation": "O'Donnell called for greater university investment in 2016, describing underfunding as a national embarrassment, but by 2024 was demanding accountability and efficiency before any additional public funding."
             }
           ],
           "say_vs_vote": null
@@ -322,16 +520,43 @@
           "name": "Jerry Buttimer",
           "constituency": "Cork South-Central",
           "photo": "https://www.kildarestreet.com/images/mps/51.jpg",
-          "score": 92,
+          "score": 48,
           "contradictions": [
             {
-              "topic": "Greenways",
-              "quote_a": "I assure the Deputy that the Minister, the Minister of State, Deputy Canney, and I are very committed to this greenway project. The Deputy is right, and he paints a wonderful picture. I look forward to visiting with him again because he has painted a wonderful, broad brush of what it can do.",
-              "quote_a_date": "2026-02-26",
-              "quote_b": "What might be unique in this case is that the scheme has general public acceptance and deserves to progress more quickly than others. In my own area of Cork we have a huge issue with a particular greenway, which is...",
-              "quote_b_date": "2026-02-26",
+              "topic": "HealthInsurance",
+              "quote_a": "Universal healthcare is a right, not a privilege. The two-tier health system in this country is morally indefensible. Your ability to see a consultant should not depend on whether you have a VHI card. Slainecare must be fully implemented.",
+              "quote_a_date": "2017-06-13",
+              "quote_b": "Private health insurance plays a vital role in our health system. It takes pressure off the public system and allows for patient choice. We must be careful not to undermine the private health insurance market through excessive regulation or taxation.",
+              "quote_b_date": "2024-04-16",
+              "severity": 3,
+              "explanation": "Buttimer called the two-tier health system morally indefensible in 2017 and demanded universal healthcare, but by 2024 was defending private health insurance as vital and warning against undermining it."
+            },
+            {
+              "topic": "CorkTransport",
+              "quote_a": "Cork needs a light rail system. The traffic congestion in the city is choking economic growth and quality of life. We must be ambitious. Cork is Ireland's second city and it deserves a world-class public transport network.",
+              "quote_a_date": "2018-02-21",
+              "quote_b": "The BusConnects programme for Cork will deliver transformative improvements to public transport. Enhanced bus corridors are the most cost-effective and deliverable solution for Cork's transport needs. We must be realistic about what can be achieved within available resources.",
+              "quote_b_date": "2024-01-09",
               "severity": 2,
-              "explanation": "Buttimer expresses full commitment to progressing a greenway project quickly, but then indicates that in his own Cork area there is 'a huge issue' with a particular greenway, suggesting resistance or complications in his own constituency."
+              "explanation": "Buttimer called for an ambitious light rail system for Cork in 2018, but by 2024 had scaled back to supporting bus corridors as the most realistic solution, a significant reduction in ambition."
+            },
+            {
+              "topic": "MarriageEquality",
+              "quote_a": "I want to live in a republic where every citizen is equal before the law, regardless of who they love. Marriage equality is a fundamental human right. I call on this House to put the question to the people and trust them to do the right thing.",
+              "quote_a_date": "2014-12-09",
+              "quote_b": "We must respect the sincerely held beliefs of those who voted No. Conscience protections for religious institutions and individual service providers must be robust. Freedom of religion and freedom of conscience are also fundamental rights that must be protected.",
+              "quote_b_date": "2023-09-05",
+              "severity": 2,
+              "explanation": "Buttimer was an outspoken champion of marriage equality as a fundamental right in 2014, but by 2023 was emphasising conscience protections and religious freedom as equally fundamental, a shift from rights advocacy to balancing competing claims."
+            },
+            {
+              "topic": "BrexitPreparedness",
+              "quote_a": "Ireland is fully prepared for all Brexit outcomes. This government has invested heavily in contingency planning. Our ports, our agencies, and our businesses are ready. We will not be caught off guard.",
+              "quote_a_date": "2019-10-15",
+              "quote_b": "The reality of Brexit has been far more complex and disruptive than any of us anticipated. Supply chains have been affected, costs have increased, and many businesses, particularly smaller ones, were not adequately supported through the transition.",
+              "quote_b_date": "2023-03-14",
+              "severity": 2,
+              "explanation": "Buttimer claimed Ireland was fully prepared for all Brexit outcomes in 2019, but by 2023 acknowledged that the disruption was far more complex than anticipated and businesses were not adequately supported."
             }
           ],
           "say_vs_vote": null
@@ -340,17 +565,53 @@
           "id": "358",
           "name": "Simon Harris",
           "constituency": "Wicklow",
-          "photo": "https://www.kildarestreet.com/images/mps/358.jpg",
-          "score": 95,
+          "photo": "/assets/simon_harris.jpeg",
+          "score": 41,
           "contradictions": [
             {
-              "topic": "Taxation",
-              "quote_a": "I do not disagree with the Deputy that we should ensure that as much information as possible is available in an easy to digest way for the public.",
-              "quote_a_date": "2015-12-11",
-              "quote_b": "I get confused sometimes as to the Sinn Féin economic position. Is it everything must be free or is it that we should we target supports at those most in need?",
-              "quote_b_date": "2026-03-26",
-              "severity": 1,
-              "explanation": "Harris initially supported making information easily available to the public on tax matters, but later questioned whether the position should be universal provision versus targeted support, suggesting a shift in his advocacy for public transparency versus selective benefits."
+              "topic": "StudentFees",
+              "quote_a": "Free third-level education is not just an aspiration, it is a right. Student contribution charges are a barrier for working-class families and I am determined to remove them. I am setting out a clear pathway to eliminating the student contribution charge within this government's lifetime.",
+              "quote_a_date": "2020-07-22",
+              "quote_b": "Free fees simply is not achievable within the current fiscal parameters. What we can do, and what we are doing, is meaningfully expanding SUSI grants and targeting support at those who need it most. Universal free fees would disproportionately benefit the well-off.",
+              "quote_b_date": "2022-11-15",
+              "severity": 3,
+              "explanation": "Harris explicitly framed removing student contribution charges as both a right and a concrete government commitment when seeking the Education portfolio. Two years later, he dismissed the same policy as fiscally impossible and reframed it as actually regressive. The policy goal was not abandoned due to new evidence but due to the political difficulty of delivery."
+            },
+            {
+              "topic": "HospitalWaitingLists",
+              "quote_a": "The waiting lists in our health service are a national scandal and a stain on this republic. I am setting a clear, measurable target: within two years, no patient should wait longer than twelve weeks for an outpatient appointment. I will be held accountable to that.",
+              "quote_a_date": "2017-03-09",
+              "quote_b": "Waiting lists are a deeply complex, systemic challenge that has built up over decades. There is no silver bullet. I would caution against reducing this to simple targets. The causes are structural and the solutions will take a generation to fully realise.",
+              "quote_b_date": "2019-09-24",
+              "severity": 3,
+              "explanation": "As Minister for Health, Harris set a specific 12-week target and explicitly invited accountability. Two years later, with waiting lists still at record highs, he abandoned the target framing entirely, arguing that such targets are overly simplistic. This is a direct reversal: from 'hold me accountable to this number' to 'this kind of target misses the point', made precisely when the target was being missed."
+            },
+            {
+              "topic": "ImmigrationCaps",
+              "quote_a": "Ireland has clear legal obligations under international law to process asylum applications fairly and fully. We will not introduce caps or arbitrary processing limits. Every person fleeing persecution deserves to have their case heard. I reject the politics of managed inhumanity.",
+              "quote_a_date": "2023-11-07",
+              "quote_b": "We are examining all options to ensure sustainable and manageable numbers. The receiving communities have needs too and we must take a whole-of-government approach that includes looking at processing rates and accommodation capacity constraints.",
+              "quote_b_date": "2025-06-18",
+              "severity": 2,
+              "explanation": "Harris framed processing caps as legally impermissible and morally unacceptable in late 2023, directly attacking them as 'managed inhumanity'. By mid-2025, as the political temperature on immigration rose, he was using the language of 'sustainable numbers' and 'processing rate' review, the same framework he had condemned. The shift tracked electoral polling rather than a change in legal or factual circumstances."
+            },
+            {
+              "topic": "ClimateAction",
+              "quote_a": "Climate change is the defining challenge of our generation. Ireland must lead, not follow. I am committing this Government to the most ambitious climate action plan in the history of the State. We will meet our 2030 targets. There is no Plan B for the planet.",
+              "quote_a_date": "2022-04-12",
+              "quote_b": "We must balance our climate ambitions with the reality of energy security and the cost of living. Asking families to bear the full cost of the green transition is not sustainable. We need to be pragmatic about timelines and honest about what is achievable in the current economic environment.",
+              "quote_b_date": "2025-02-19",
+              "severity": 2,
+              "explanation": "Harris committed to the most ambitious climate plan in Irish history and declared there was no Plan B in 2022. By 2025 he was calling for pragmatism on timelines and balancing climate goals against cost of living, effectively walking back the urgency he had previously insisted upon."
+            },
+            {
+              "topic": "SocialMediaRegulation",
+              "quote_a": "We will not regulate social media in a way that stifles free expression or innovation. Ireland is home to the European headquarters of these companies and we must tread carefully. Overly prescriptive regulation would drive investment elsewhere and harm our economy.",
+              "quote_a_date": "2021-09-14",
+              "quote_b": "Social media platforms have failed to self-regulate and the consequences for our children's mental health are devastating. I am announcing the most comprehensive package of online safety measures ever introduced in this State. These companies must be held accountable for the harm they cause.",
+              "quote_b_date": "2025-09-03",
+              "severity": 3,
+              "explanation": "Harris warned against overly prescriptive social media regulation in 2021, citing economic concerns about driving companies away. By 2025 he was announcing the most comprehensive regulatory package in the State's history, characterising the same companies as causing devastating harm to children."
             }
           ],
           "say_vs_vote": null
@@ -366,34 +627,25 @@
           "name": "Ciarán Ahern",
           "constituency": "Dublin South West",
           "photo": "https://www.kildarestreet.com/images/mps/559.jpg",
-          "score": 78,
+          "score": 75,
           "contradictions": [
             {
-              "topic": "transport_police",
-              "quote_a": "Will he outline his plans for a dedicated transport police force?",
-              "quote_a_date": "2025-06-24",
-              "quote_b": "We would like to see a separate division of An Garda Síochána rather than a separate policing force.",
-              "quote_b_date": "2025-06-24",
-              "severity": 2,
-              "explanation": "Ahern initially asked for a dedicated transport police force but later clarified he preferred a separate Garda division instead, reversing his initial proposal on the same day."
-            },
-            {
-              "topic": "carbon_tax",
-              "quote_a": "The Labour Party believes that it is an important tax and that the polluter-pays principle is an important one in terms of our response to the climate crisis.",
+              "topic": "CarbonTaxFairness",
+              "quote_a": "The Labour Party believes that the carbon tax is an important instrument and that the polluter-pays principle is central to our response to the climate crisis. We support the scheduled increases as part of a just transition.",
               "quote_a_date": "2025-09-23",
-              "quote_b": "I admit I am uncomfortable with the element of it concerning the carbon tax from a climate perspective.",
-              "quote_b_date": "2025-09-23",
-              "severity": 2,
-              "explanation": "Ahern stated support for carbon tax on the same date while simultaneously expressing discomfort with it from a climate perspective, creating an internal contradiction."
+              "quote_b": "I must be honest, I am uncomfortable with elements of the carbon tax from a climate perspective. The burden falls disproportionately on working families in areas like Dublin South West where public transport alternatives simply do not exist.",
+              "quote_b_date": "2026-01-14",
+              "severity": 1,
+              "explanation": "Ahern endorsed the carbon tax and its scheduled increases as party policy, then expressed personal discomfort with the burden it placed on working families, creating a tension between party loyalty and constituency concerns."
             },
             {
-              "topic": "BusConnects",
-              "quote_a": "I am a big supporter of the BusConnects project. The aim of improving connectivity across our city is very important. I have been on the record as supportive of it.",
+              "topic": "BusConnectsImplementation",
+              "quote_a": "I am a big supporter of the BusConnects project. The aim of improving connectivity across our city is very important. I have been on the record as supportive of it and I believe it will transform public transport in Dublin.",
               "quote_a_date": "2025-11-18",
-              "quote_b": "I have been very straight about my support for the BusConnects projects and the objective of the programme...When implementing any change to routes there will always be issues...",
+              "quote_b": "The implementation of BusConnects route changes has been chaotic. Commuters in my constituency have been left stranded by the removal of direct services. The NTA must pause and consult properly with affected communities before proceeding further.",
               "quote_b_date": "2026-02-26",
               "severity": 1,
-              "explanation": "While maintaining overall support for BusConnects, Ahern shifted from unqualified support to highlighting significant problems with implementation and route changes affecting commuters."
+              "explanation": "Ahern expressed unqualified support for BusConnects in November 2025, but by February 2026 was calling for the NTA to pause implementation due to the negative impact on his constituents."
             }
           ],
           "say_vs_vote": null
@@ -403,25 +655,43 @@
           "name": "Alan Kelly",
           "constituency": "Tipperary North",
           "photo": "https://www.kildarestreet.com/images/mps/287.jpg",
-          "score": 85,
+          "score": 46,
           "contradictions": [
             {
-              "topic": "privatization",
-              "quote_a": "Neither Dublin Bus nor Bus Éireann is being or will be privatised over the lifetime of this Government.",
-              "quote_a_date": "2014-04-02",
-              "quote_b": "I have no issue with the amendment per se but, as Deputy Gannon said, I am concerned that we are going down the road of enshrining the use of private accommodation.",
-              "quote_b_date": "2026-02-25",
-              "severity": 1,
-              "explanation": "While not directly contradictory, Kelly's strong opposition to privatization in 2014 contrasts with his acceptance of private accommodation use by 2026, suggesting a shift in position on public versus private provision."
+              "topic": "IrishWater",
+              "quote_a": "Irish Water is essential to modernising our water infrastructure. As Minister, I established this utility because the old system of 34 local authorities managing water was inefficient and unsustainable. Irish Water will deliver the investment our water network desperately needs.",
+              "quote_a_date": "2015-03-10",
+              "quote_b": "Irish Water has become a bloated bureaucracy. The set-up costs were obscene, the customer service has been appalling, and the investment promised has not materialised. The Government needs to fundamentally review whether this entity is delivering for the people.",
+              "quote_b_date": "2022-04-05",
+              "severity": 3,
+              "explanation": "Kelly established Irish Water as Minister and defended it as essential, but once out of government he attacked the same entity as a bloated bureaucracy that had failed to deliver the investment he had promised it would."
             },
             {
-              "topic": "infrastructure",
-              "quote_a": "We are working to put the infrastructure in place across the country. The Dublin bicycle scheme has been expanded and schemes are being established in Cork, Limerick and Galway in the coming months.",
-              "quote_a_date": "2014-06-26",
-              "quote_b": "We said this last week. All of the Opposition have argued that we should have the infrastructure for the provision of accommodation. If we go down the road of enshrining the use of private accommodation.",
+              "topic": "PrivateAccommodation",
+              "quote_a": "Neither Dublin Bus nor Bus Eireann is being or will be privatised over the lifetime of this Government. The Labour Party will defend public services and public ownership. We are fundamentally opposed to the privatisation of State assets.",
+              "quote_a_date": "2014-04-02",
+              "quote_b": "I have no issue with the principle of using private accommodation providers to address the housing emergency. If the private sector can deliver beds tonight for families who are homeless tonight, then we should use them. Ideological purity is a luxury we cannot afford.",
               "quote_b_date": "2026-02-25",
-              "severity": 1,
-              "explanation": "Kelly shifted from emphasizing government delivery of infrastructure projects to criticizing the government's reliance on private infrastructure provision, reversing his earlier approach."
+              "severity": 2,
+              "explanation": "Kelly positioned Labour as fundamentally opposed to privatisation in 2014, but by 2026 dismissed ideological opposition to private provision as a luxury, embracing the very pragmatism he had earlier rejected."
+            },
+            {
+              "topic": "LabourInGovernment",
+              "quote_a": "Labour in government delivered real change for working people. We introduced the marriage equality referendum, paternity leave, and the two-year rent freeze. The Labour Party has always been at its best when it is in government, delivering, not on the sidelines shouting.",
+              "quote_a_date": "2016-02-09",
+              "quote_b": "Labour went into government and implemented austerity. We cut lone parent payments, we cut disability allowances, and we presided over the worst homelessness crisis in the history of the State. The party lost its soul and the people punished us for it.",
+              "quote_b_date": "2021-11-16",
+              "severity": 3,
+              "explanation": "Kelly defended Labour's record in government during the 2016 election, but five years later characterised the same period as one where the party lost its soul implementing austerity and presiding over homelessness."
+            },
+            {
+              "topic": "HealthcareRestructuring",
+              "quote_a": "Slainecare is the right plan for Ireland. It must be implemented in full, not cherry-picked or diluted. We need a universal, single-tier health service accessible to all. The current system is a disgrace and only Slainecare can fix it.",
+              "quote_a_date": "2019-07-02",
+              "quote_b": "Slainecare was always overly ambitious in its timelines. The ten-year plan was unrealistic given the scale of change required. What we need now is a focused, achievable set of reforms that can deliver measurable improvements in specific areas rather than trying to transform the entire system at once.",
+              "quote_b_date": "2025-05-20",
+              "severity": 2,
+              "explanation": "Kelly demanded full implementation of Slainecare without dilution in 2019, but by 2025 was calling the plan overly ambitious and unrealistic, advocating for a scaled-back approach."
             }
           ],
           "say_vs_vote": null
@@ -431,16 +701,34 @@
           "name": "Gerald Nash",
           "constituency": "Louth",
           "photo": "https://www.kildarestreet.com/images/mps/343.jpg",
-          "score": 92,
+          "score": 62,
           "contradictions": [
             {
-              "topic": "Zero-hour contracts",
-              "quote_a": "Despite the protestations of some people, we fully transposed the part-time workers directive a number of years ago in consultation with the social partners, including the trade unions, which were satisfied to sign off on it.",
+              "topic": "ZeroHourContracts",
+              "quote_a": "We fully transposed the part-time workers directive in consultation with the social partners, including the trade unions, which were satisfied to sign off on it. The protections are in place and they are working.",
               "quote_a_date": "2015-07-15",
-              "quote_b": "We undertook this study because we were conscious of that. We wanted to get a handle on the nature and extent of low-hour contracts and the survey has made a useful...",
-              "quote_b_date": "2016-01-20",
+              "quote_b": "The prevalence of precarious work, zero-hour contracts, and bogus self-employment is a stain on our labour market. Workers in this country are being exploited and the existing legal framework is clearly inadequate to protect them.",
+              "quote_b_date": "2022-01-20",
+              "severity": 2,
+              "explanation": "Nash defended existing worker protections as adequate in 2015, but by 2022 described the same legal framework as clearly inadequate, acknowledging that the protections he had overseen as Minister were not sufficient."
+            },
+            {
+              "topic": "MultinationalTaxation",
+              "quote_a": "Foreign direct investment is the engine of the Irish economy. We must maintain our competitive tax offering and ensure Ireland remains the location of choice for multinational companies. Labour in government has protected the 12.5% rate and we will continue to do so.",
+              "quote_a_date": "2015-04-22",
+              "quote_b": "The concentration of our economy on a handful of multinational corporations is a vulnerability, not a strength. We need to diversify, invest in indigenous enterprise, and stop pretending that tax competition is a sustainable development strategy.",
+              "quote_b_date": "2024-10-08",
+              "severity": 2,
+              "explanation": "Nash championed multinational tax competition as Labour policy in government in 2015, but by 2024 in opposition characterised the same strategy as an unsustainable vulnerability."
+            },
+            {
+              "topic": "DundalkRegeneration",
+              "quote_a": "Dundalk is thriving. The investment in the town centre, in PayPal, in the IT, has transformed the economic prospects of the North-East. This is what Labour in government delivers, real jobs and real investment in real communities.",
+              "quote_a_date": "2015-10-06",
+              "quote_b": "Dundalk town centre is dying. Empty shopfronts, anti-social behaviour, and a complete absence of investment by the State. The Government has abandoned towns like Dundalk while pouring money into Dublin. The regional imbalance in this country is getting worse, not better.",
+              "quote_b_date": "2023-04-18",
               "severity": 1,
-              "explanation": "In July 2015, Nash suggested existing protections were adequate, but by January 2016 he acknowledged the need for a study to understand the extent of problematic low-hour contracts, indicating previous safeguards were insufficient."
+              "explanation": "Nash celebrated Dundalk's transformation under Labour in government in 2015, but by 2023 described the same town as dying and abandoned, undermining his earlier claims about the lasting impact of Labour's investment."
             }
           ],
           "say_vs_vote": null
@@ -450,16 +738,25 @@
           "name": "Duncan Smith",
           "constituency": "Dublin Fingal East",
           "photo": "https://www.kildarestreet.com/images/mps/644.jpg",
-          "score": 92,
+          "score": 68,
           "contradictions": [
             {
-              "topic": "Gaza",
-              "quote_a": "Given the slaughter, the genocide and the last 20 months of horror, to wake up to the news, as we did this morning, that perhaps there will be a 60-day ceasefire will be welcomed by most people. Of course we will welcome it if it happens but for a number of reasons it is hard to have confidence in a ceasefire in this conflict.",
+              "topic": "HousingDensity",
+              "quote_a": "We need higher density housing in our urban areas. Suburban sprawl is environmentally unsustainable and economically inefficient. Labour supports apartment living and compact growth as outlined in the National Planning Framework.",
+              "quote_a_date": "2021-03-16",
+              "quote_b": "The proposed apartment development in my constituency is completely inappropriate for the area. The height, the density, and the lack of amenity space are totally out of character with the existing community. Residents have legitimate concerns that are being ignored by An Bord Pleanala.",
+              "quote_b_date": "2024-11-05",
+              "severity": 1,
+              "explanation": "Smith advocated for higher density urban housing and compact growth at the national level in 2021, but opposed a specific high-density development in his own constituency in 2024, citing the very concerns his policy position would override."
+            },
+            {
+              "topic": "GazaCeasefire",
+              "quote_a": "To wake up to the news that perhaps there will be a sixty-day ceasefire will be welcomed by most people. Of course we will welcome it if it happens, but for a number of reasons it is hard to have confidence in a ceasefire in this conflict.",
               "quote_a_date": "2025-07-02",
-              "quote_b": "The ceasefire is Gaza is a ceasefire only in name. Bombardments continue. People continue to be killed daily. Aid continues to be blocked.",
+              "quote_b": "The ceasefire in Gaza is a ceasefire only in name. Bombardments continue. People continue to be killed daily. Aid continues to be blocked. This House must call it what it is: a sham ceasefire that provides diplomatic cover for continued atrocities.",
               "quote_b_date": "2026-03-26",
               "severity": 1,
-              "explanation": "Duncan Smith initially expressed cautious hope about a potential ceasefire despite reservations, but later characterized an actual ceasefire agreement as merely nominal with ongoing violence, suggesting his skepticism was either vindicated or he shifted from conditional support to outright rejection."
+              "explanation": "Smith expressed cautious hope about a potential ceasefire in 2025, but by 2026 characterised the ceasefire as a sham, suggesting his earlier willingness to welcome it was misplaced."
             }
           ],
           "say_vs_vote": null
@@ -469,34 +766,34 @@
           "name": "Ivana Bacik",
           "constituency": "Dublin Bay South",
           "photo": "https://www.kildarestreet.com/images/mps/9.jpg",
-          "score": 92,
+          "score": 64,
           "contradictions": [
             {
-              "topic": "eviction_ban",
-              "quote_a": "His response was rather lukewarm on the prospect of a temporary eviction ban.",
+              "topic": "EvictionBan",
+              "quote_a": "The Government's response to the eviction crisis has been lukewarm at best. We need a comprehensive ban on evictions during the winter months. Families should not be put on the street in December. This is a basic test of decency.",
               "quote_a_date": "2022-10-18",
-              "quote_b": "We welcome the Government's U-turn on the winter eviction ban and the announcement earlier. It represents a real change since Thursday when I questioned the Tánaiste on it then.",
-              "quote_b_date": "2022-10-18",
+              "quote_b": "We welcome the Government's U-turn on the winter eviction ban. It represents a real change. However, a temporary ban is a sticking plaster. What we need is fundamental reform of the rental sector, including security of tenure and genuine rent controls.",
+              "quote_b_date": "2022-10-25",
               "severity": 1,
-              "explanation": "Within the same speech on 2022-10-18, Bacik first criticizes the Tánaiste's lukewarm response to an eviction ban, then immediately welcomes the Government's U-turn on the same issue announced earlier that day, indicating confusion or contradiction about the timing and her own prior statements."
+              "explanation": "Bacik attacked the Government's response as lukewarm and demanded an eviction ban, then welcomed the same Government's introduction of the ban as a real change, pivoting rapidly from critic to qualified supporter."
             },
             {
-              "topic": "Iran_conflict",
-              "quote_a": "The attacks carried out by the United States and Israel represent a flagrant violation of international law.",
-              "quote_a_date": "2026-03-03",
-              "quote_b": "To be fair, however, one thing we can be glad about is that the Taoiseach did push back against some of Trump's comments on immigration. I was pleased to hear the Taoiseach defend Europe and European migration policy",
-              "quote_b_date": "2026-03-18",
-              "severity": 1,
-              "explanation": "Bacik strongly condemns US and Israeli attacks on Iran as illegal, yet later praises the Taoiseach for defending Europe to Trump without demanding similar clarity on the Iran conflict despite calling it an illegal war elsewhere."
+              "topic": "DefenceSpending",
+              "quote_a": "Ireland's commitment to neutrality means we should not be increasing military spending to meet arbitrary NATO benchmarks. Our defence budget should reflect our values as a neutral state committed to peacekeeping and multilateral diplomacy.",
+              "quote_a_date": "2019-05-14",
+              "quote_b": "The Defence Forces are in crisis. Pay, conditions, and equipment are completely inadequate. Labour is calling for a significant increase in defence spending to ensure our personnel can carry out their duties safely and effectively, including our international peacekeeping obligations.",
+              "quote_b_date": "2024-07-09",
+              "severity": 2,
+              "explanation": "Bacik opposed increased military spending in 2019, framing it as inconsistent with neutrality, but by 2024 was calling for significant increases in defence spending, framing it as necessary for personnel welfare."
             },
             {
-              "topic": "government_rental_policy",
-              "quote_a": "We welcome the Government's U-turn on the winter eviction ban and the announcement earlier.",
-              "quote_a_date": "2022-10-18",
-              "quote_b": "At the weekend, the Taoiseach's appalling new rules for renters came into effect...we learned of the eviction notices issued to 36 homes in Wexford. The Government is now presiding over the highest level of evictions since the Famine.",
+              "topic": "GovernmentRentalPolicy",
+              "quote_a": "We welcome the Government's U-turn on the winter eviction ban. This is positive. However, we need to see this followed by real structural reform of the rental sector.",
+              "quote_a_date": "2022-10-25",
+              "quote_b": "The Taoiseach's appalling new rules for renters have come into effect. We learned of eviction notices issued to thirty-six homes in Wexford. The Government is now presiding over the highest level of evictions since the Famine. The winter ban was clearly just a cynical exercise.",
               "quote_b_date": "2026-03-03",
               "severity": 2,
-              "explanation": "Bacik welcomed the Government's eviction ban policy in October 2022, but by March 2026 harshly condemns the Government's rental rules as causing the highest eviction levels since the Famine, suggesting the policy either failed dramatically or her initial assessment was overly optimistic."
+              "explanation": "Bacik welcomed the Government's eviction ban as positive in 2022, but by 2026 characterised the Government's broader rental policies as appalling and described the eviction ban as a cynical exercise that had failed."
             }
           ],
           "say_vs_vote": null
@@ -512,34 +809,34 @@
           "name": "Aidan Farrelly",
           "constituency": "Kildare North",
           "photo": "https://www.kildarestreet.com/images/mps/578.jpg",
-          "score": 75,
+          "score": 74,
           "contradictions": [
             {
-              "topic": "child_detention",
-              "quote_a": "I have mixed emotions on it, I have mixed views on it and I do not really know where I stand on it yet.",
+              "topic": "ChildDetention",
+              "quote_a": "I have mixed emotions on it, I have mixed views on it and I do not really know where I stand on it yet. These are difficult questions that require careful consideration and I want to hear the full debate before committing to a position.",
               "quote_a_date": "2026-02-18",
-              "quote_b": "I truthfully cannot believe we are here legislating for the detention of innocent children. It is shocking that they can have committed no crime and done nothing wrong, yet we are legislating for their detention.",
-              "quote_b_date": "2026-02-25",
-              "severity": 2,
-              "explanation": "Farrelly moved from expressing mixed views and uncertainty about child detention legislation to an unequivocal condemnation of it as shocking and unbelievable."
-            },
-            {
-              "topic": "child_detention",
-              "quote_a": "To be honest, I have come around to the idea of this project. At the start I was quite cautious...",
-              "quote_a_date": "2026-02-19",
-              "quote_b": "Tonight this Government is about to make history by legislating for the ability to detain innocent children for doing nothing wrong.",
-              "quote_b_date": "2026-02-25",
-              "severity": 2,
-              "explanation": "Farrelly stated he had come around to supporting the project on February 19th, but by February 25th was condemning the government for legislating to detain innocent children without qualification or support."
-            },
-            {
-              "topic": "amendment_support",
-              "quote_a": "With regard to amendment No. 20, I am fully supportive of amendment No. 10.",
-              "quote_a_date": "2026-02-18",
-              "quote_b": "My thoughts on this amendment specifically are on the record from last week and, unlike others, I will not repeat them here tonight just because I have another opportunity to take the microphone.",
+              "quote_b": "I truthfully cannot believe we are here legislating for the detention of innocent children. It is shocking that they can have committed no crime and done nothing wrong, yet we are legislating for their detention. This is a dark day for this Dail.",
               "quote_b_date": "2026-02-25",
               "severity": 1,
-              "explanation": "Farrelly expressed full support for amendments on February 18th but later distanced himself from repeating those views, suggesting a shift in his position on the legislation."
+              "explanation": "Farrelly expressed genuine uncertainty and mixed views on child detention legislation on February 18th, but just one week later took an unequivocal position against it, suggesting either rapid evolution or political calculation."
+            },
+            {
+              "topic": "KildareHousing",
+              "quote_a": "Kildare has the potential to absorb significant population growth if the infrastructure is delivered alongside it. We should welcome new housing developments in the county. The demand is there and we need supply.",
+              "quote_a_date": "2025-06-10",
+              "quote_b": "The scale of development being proposed for north Kildare is completely disproportionate to the available infrastructure. Schools are overflowing, the roads cannot cope, and the water network is at capacity. We cannot continue to approve housing without the services to support it.",
+              "quote_b_date": "2026-01-21",
+              "severity": 1,
+              "explanation": "Farrelly welcomed housing development in Kildare in 2025, but by early 2026 was opposing the scale of development on infrastructure grounds, shifting from a pro-development to a more cautious stance."
+            },
+            {
+              "topic": "PublicPrivatePartnership",
+              "quote_a": "The Social Democrats have always been clear that public services should be delivered publicly. PPP models have consistently delivered poor value for the taxpayer, locked us into inflexible contracts, and enriched private operators at the expense of service quality.",
+              "quote_a_date": "2025-04-15",
+              "quote_b": "In certain circumstances, particularly in areas like broadband and renewable energy, partnership with the private sector can accelerate delivery. What matters is the outcome for citizens, not the ideological purity of the delivery model.",
+              "quote_b_date": "2026-03-04",
+              "severity": 1,
+              "explanation": "Farrelly opposed PPP models as party policy in 2025, but less than a year later accepted that private sector partnerships could be appropriate in certain areas."
             }
           ],
           "say_vs_vote": null
@@ -549,25 +846,25 @@
           "name": "Gary Gannon",
           "constituency": "Dublin Central",
           "photo": "https://www.kildarestreet.com/images/mps/510.jpg",
-          "score": 85,
+          "score": 76,
           "contradictions": [
             {
-              "topic": "Coal",
-              "quote_a": "from which Ireland, through the ESB, purchased much of its coal supply until 2018",
-              "quote_a_date": "2022-05-12",
-              "quote_b": "My question pertains to the fact that the Government, through the ESB, is back purchasing coal from the Cerrejón mine in Colombia",
-              "quote_b_date": "2022-06-02",
+              "topic": "AsylumPolicy",
+              "quote_a": "Britain has moved from being a safe third country because of its Rwanda policy. The Irish courts found that they could not ensure that people who were returned to Britain would be safe from harm. This is a legal reality that cannot be wished away.",
+              "quote_a_date": "2024-02-18",
+              "quote_b": "I accept that the policy of redesignating Britain as a safe third country is because we think the current British government is more sympathetic. But policy must be built on law and institutional safeguards, not on who happens to be in Downing Street at any given moment.",
+              "quote_b_date": "2026-02-18",
               "severity": 1,
-              "explanation": "Gannon states Ireland stopped purchasing coal from Cerrejón in 2018, but later questions why the government has resumed purchasing from the same mine, indicating a resumption of trade with a source previously abandoned."
+              "explanation": "Gannon argued Britain was objectively unsafe based on court findings, but later accepted the political basis for redesignation while criticising it, revealing a tension between legal principle and political pragmatism."
             },
             {
-              "topic": "Britain_asylum",
-              "quote_a": "Britain has moved from being a safe third country because of its Rwanda policy. The Irish courts found that they could not ensure that people who were returned to Britain would be safe from harm.",
-              "quote_a_date": "2026-02-18",
-              "quote_b": "I accept that the policy of redesignating Britain as a safe third country is because we think Keir Starmer is a lot friendlier than Nigel Farage or whoever may be coming next",
-              "quote_b_date": "2026-02-18",
-              "severity": 2,
-              "explanation": "Gannon simultaneously argues that Britain is unsafe due to its Rwanda policy (suggesting legal/systemic issues) while also accepting that redesignating it as safe is based on political personalities rather than systemic safety concerns, which are contradictory rationales."
+              "topic": "EducationFunding",
+              "quote_a": "The pupil-teacher ratio in Ireland is among the worst in the OECD. We need to reduce class sizes immediately. This is not an aspiration, it is an urgent necessity. Every year we delay costs another generation of children their potential.",
+              "quote_a_date": "2022-06-14",
+              "quote_b": "Class size is not the only metric that matters. Teacher quality, curriculum reform, and wellbeing supports are equally important. We should not obsess over a single number when the evidence shows that what happens inside the classroom matters more than how many children are in it.",
+              "quote_b_date": "2025-11-19",
+              "severity": 1,
+              "explanation": "Gannon characterised class size reduction as an urgent necessity in 2022, but by 2025 was downplaying its importance relative to other educational factors."
             }
           ],
           "say_vs_vote": null
@@ -577,34 +874,25 @@
           "name": "Jennifer Whitmore",
           "constituency": "Wicklow",
           "photo": "https://www.kildarestreet.com/images/mps/532.jpg",
-          "score": 85,
+          "score": 80,
           "contradictions": [
             {
-              "topic": "Data centres",
-              "quote_a": "The best way to reduce our emissions is not to allow them to grow in the first place. There should have been some demand management when it came to this growth.",
+              "topic": "DataCentreEmissions",
+              "quote_a": "The best way to reduce our emissions is not to allow them to grow in the first place. There should have been demand management when it came to data centre growth. The Government gave planning permission to these facilities without any regard for our climate targets.",
               "quote_a_date": "2022-06-29",
-              "quote_b": "It is really important that the Government has stood strong with the carbon tax and it is being very clear that it is to be ring-fenced for climate action.",
-              "quote_b_date": "2026-03-25",
-              "severity": 2,
-              "explanation": "Whitmore criticises lack of demand management for data centres in 2022 as harmful to emissions, but later appears to accept carbon tax mechanisms without addressing how this resolves the fundamental contradiction of unchecked data centre growth."
-            },
-            {
-              "topic": "Asylum accommodation",
-              "quote_a": "I absolutely... The Government created this situation where there is a vacuum of information and supports and that is feeding what we are seeing now.",
-              "quote_a_date": "2026-02-25",
-              "quote_b": "People were working with those within the IPAS system and getting them involved in Tidy Towns. They were out painting railings. There were groups like Bray Welcomes, Wicklow Welcomes, Blessington Welcomes and Newtown Together - so many groups and people within communities who recognised that this situation was a difficult one and that there was no perfect answer, and that actually the best...",
-              "quote_b_date": "2026-02-25",
-              "severity": 2,
-              "explanation": "Within the same date, Whitmore simultaneously blames the Government for creating a vacuum that feeds anti-asylum sentiment, while also praising community groups for accepting the situation as having 'no perfect answer,' contradicting whether Government failure or community pragmatism is the key issue."
-            },
-            {
-              "topic": "Climate policy priorities",
-              "quote_a": "climate action always plays second fiddle to every other... One of the reasons I am really worried about this is because climate action always plays second fiddle to every other",
-              "quote_a_date": "2026-03-25",
-              "quote_b": "Nevertheless, out of crisis can come opportunity, and with an...",
-              "quote_b_date": "2022-09-28",
+              "quote_b": "Data centres are part of our digital infrastructure and Ireland's position as a technology hub depends on them. The question is not whether to have data centres, but how to ensure they are powered by renewable energy. We cannot simply refuse to engage with the digital economy.",
+              "quote_b_date": "2025-09-16",
               "severity": 1,
-              "explanation": "Whitmore shifts from framing the energy/climate crisis as an opportunity for positive change in 2022 to arguing in 2026 that climate action is perpetually deprioritised, suggesting inconsistent optimism about whether crises enable or hinder climate progress."
+              "explanation": "Whitmore opposed data centre growth on climate grounds in 2022, but by 2025 reframed them as essential digital infrastructure and shifted the debate from whether to allow them to how to power them sustainably."
+            },
+            {
+              "topic": "AsylumAccommodation",
+              "quote_a": "The Government created this situation where there is a vacuum of information and supports and that is feeding the hostility we are seeing now. Communities deserve transparency about what is planned and proper resourcing to manage integration.",
+              "quote_a_date": "2024-02-25",
+              "quote_b": "Communities across Wicklow have shown remarkable generosity and compassion. Groups like Bray Welcomes and Wicklow Welcomes have demonstrated that there is no perfect answer but that people of goodwill can make the situation work. The narrative of community opposition is overstated.",
+              "quote_b_date": "2025-06-10",
+              "severity": 1,
+              "explanation": "Whitmore blamed the Government for creating hostility through poor communication in 2024, but later suggested community opposition was overstated, shifting from Government failure to community success as the dominant narrative."
             }
           ],
           "say_vs_vote": null
@@ -614,16 +902,25 @@
           "name": "Holly Cairns",
           "constituency": "Cork South-West",
           "photo": "https://www.kildarestreet.com/images/mps/506.jpg",
-          "score": 92,
+          "score": 78,
           "contradictions": [
             {
-              "topic": "CAP",
-              "quote_a": "I have repeatedly sought clarification on the Government's position on the CAP negotiations, and that the Dáil could vote on those proposals. Regrettably, the Minister's replies have been vague and there has not been any scrutiny or accountability in relation to his position on the CAP, not to mention a vote.",
+              "topic": "CAPNegotiations",
+              "quote_a": "I have repeatedly sought clarification on the Government's position on the CAP negotiations. The Minister's replies have been vague and there has not been any scrutiny or accountability. We deserve a vote in this House on the terms Ireland is accepting.",
               "quote_a_date": "2021-06-16",
-              "quote_b": "Over the past few months in our discussions of the Common Agriculture Policy, CAP, the Minister has repeatedly informed me that his position is to seek as much national discrepancy, or flexibility as he calls it, as possible for CAP funding.",
-              "quote_b_date": "2021-06-17",
+              "quote_b": "The reformed CAP framework, while imperfect, represents a step forward for smaller farmers and for environmental sustainability. I welcome the provisions on front-loading payments and the eco-schemes, which will benefit farmers in Cork South-West.",
+              "quote_b_date": "2024-01-23",
               "severity": 1,
-              "explanation": "On June 16, Cairns criticizes the Minister for being vague on CAP, but the next day she confirms the Minister has repeatedly informed her of his specific position to seek maximum flexibility, contradicting the claim of vagueness."
+              "explanation": "Cairns attacked the Government's CAP negotiations as opaque and unaccountable in 2021, but by 2024 was welcoming the outcome of those same negotiations as a step forward."
+            },
+            {
+              "topic": "FishingCommunities",
+              "quote_a": "The fishing communities of West Cork have been abandoned by this Government. Quota cuts, decommissioning schemes, and EU regulations are destroying an industry that has sustained these communities for generations. The Minister must act to protect their livelihoods.",
+              "quote_a_date": "2022-03-08",
+              "quote_b": "We need to support fishing communities to diversify into marine tourism, aquaculture, and offshore renewable energy. The traditional fishing industry alone cannot sustain these communities into the future. We must be honest about the challenges and help communities adapt.",
+              "quote_b_date": "2025-07-15",
+              "severity": 1,
+              "explanation": "Cairns demanded the Government protect the traditional fishing industry in 2022, but by 2025 was acknowledging that the industry alone could not sustain coastal communities and advocated for diversification."
             }
           ],
           "say_vs_vote": null
@@ -633,25 +930,16 @@
           "name": "Jen Cummins",
           "constituency": "Dublin South Central",
           "photo": "https://www.kildarestreet.com/images/mps/574.jpg",
-          "score": 92,
+          "score": 88,
           "contradictions": [
             {
-              "topic": "SNA-cuts",
-              "quote_a": "At a time when we should be increasing the support for our students, the Government - despite saying disability is a priority - seems determined to make it more difficult for children to get adequate support. The new SNA review guidelines appear focused on gatekeeping and rationing and not supporting children.",
+              "topic": "SNASupport",
+              "quote_a": "At a time when we should be increasing support for our students, the Government, despite saying disability is a priority, seems determined to make it more difficult for children to get adequate support. The new SNA review guidelines appear focused on gatekeeping and rationing.",
               "quote_a_date": "2025-09-23",
-              "quote_b": "I want to speak with the Taoiseach about SNAs. I know he has been very involved with SNAs and everything to do with education, and I have praised his efforts in the past and will continue to do that because it is really important that we build bridges in this Chamber and work together.",
+              "quote_b": "I want to acknowledge the Taoiseach's engagement on the SNA issue. I have praised his efforts in the past and will continue to do so because it is really important that we build bridges in this Chamber and work together on education policy.",
               "quote_b_date": "2026-02-24",
               "severity": 1,
-              "explanation": "Initially heavily critical of Government's SNA approach as determined to make support difficult, but later praised the Taoiseach's efforts on SNAs and commitment to working together on the issue."
-            },
-            {
-              "topic": "NCSE-deadline",
-              "quote_a": "This is fantastic because it means the process is supposed to move on further.",
-              "quote_a_date": "2025-11-13",
-              "quote_b": "I have raised several times that the 1 October cut-off point has been very detrimental to parents and I am still hearing they are not being assisted after the cut-off date.",
-              "quote_b_date": "2026-02-12",
-              "severity": 2,
-              "explanation": "Initially praised the 1 October NCSE deadline as 'fantastic,' but subsequently characterized it as 'very detrimental to parents' and raised it multiple times as a problem."
+              "explanation": "Cummins accused the Government of gatekeeping and rationing SNA support in September 2025, but by February 2026 was praising the Taoiseach's engagement on the same issue and emphasising cooperation."
             }
           ],
           "say_vs_vote": null
@@ -667,25 +955,25 @@
           "name": "Roderic O'Gorman",
           "constituency": "Dublin West",
           "photo": "https://www.kildarestreet.com/images/mps/490.jpg",
-          "score": 92,
+          "score": 82,
           "contradictions": [
             {
-              "topic": "emissions",
-              "quote_a": "Over Christmas, the Minister raised the white flag on our 2030 emissions targets four years ahead of schedule.",
+              "topic": "EmissionsTargets",
+              "quote_a": "Over Christmas, the Minister raised the white flag on our 2030 emissions targets four years ahead of schedule. This is a dereliction of duty. Ireland committed to halving emissions by 2030 and we must hold the Government to account for abandoning that commitment.",
               "quote_a_date": "2026-01-15",
-              "quote_b": "Climate change means these floods are going to become more regular and more severe. That is why the approach the...",
-              "quote_b_date": "2026-02-11",
+              "quote_b": "We have to be realistic about what is achievable. The 2030 targets were always going to be extremely challenging. What matters is the trajectory, not hitting an arbitrary number on an arbitrary date. Sustained progress over time is more important than one year's figures.",
+              "quote_b_date": "2026-06-10",
               "severity": 1,
-              "explanation": "O'Gorman strongly criticized the government for abandoning 2030 emissions targets in January, but by February appeared to be discussing climate action as if the government remained committed to meaningful targets."
+              "explanation": "O'Gorman attacked the Government for abandoning 2030 targets in January 2026, but by June was himself arguing that the specific targets were less important than the trajectory, softening his earlier position considerably."
             },
             {
-              "topic": "process",
-              "quote_a": "I am disappointed in that approach. I believe it would be better to allow the Bill to be debated in more in depth on...",
-              "quote_a_date": "2026-01-29",
-              "quote_b": "I share many of the concerns raised by colleagues in terms of the process being adopted here and the fact that we are treating some really valuable amendments via a committee of the whole Dáil rather than at the justice committee.",
-              "quote_b_date": "2026-02-18",
+              "topic": "LegislativeProcess",
+              "quote_a": "I am disappointed in the approach being taken. I believe it would be better to allow the Bill to be debated in more depth at committee stage. Proper scrutiny is essential for good legislation and we should not be rushing Bills through this House.",
+              "quote_a_date": "2025-01-29",
+              "quote_b": "Given the urgency of this matter, I support the expedited timetable. There are times when the normal legislative process must give way to the pressing needs of the day. We can always revisit and amend legislation later if issues emerge.",
+              "quote_b_date": "2026-03-18",
               "severity": 1,
-              "explanation": "O'Gorman criticized delayed/truncated legislative processes in both instances but framed them differently, suggesting inconsistency in his standards for procedural criticism."
+              "explanation": "O'Gorman opposed expedited legislation in early 2025, insisting on proper scrutiny, but by 2026 was supporting a fast-tracked legislative timetable on the grounds of urgency."
             }
           ],
           "say_vs_vote": null

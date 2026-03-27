@@ -1,12 +1,12 @@
 import { Politician, Party, Contradiction } from '../data/parties'
 import './PoliticianPage.css'
 
-// followThrough = 100 - contradictionScore, higher is better
-const SCORE_LABEL = (ft: number): string => {
-  if (ft >= 80) return 'Excellent'
-  if (ft >= 60) return 'Good'
-  if (ft >= 40) return 'Mixed'
-  if (ft >= 20) return 'Poor'
+// truthScore = 100 - contradictionScore, higher is better
+const SCORE_LABEL = (ts: number): string => {
+  if (ts >= 80) return 'Excellent'
+  if (ts >= 60) return 'Good'
+  if (ts >= 40) return 'Mixed'
+  if (ts >= 20) return 'Poor'
   return 'Very Poor'
 }
 
@@ -18,14 +18,12 @@ const SCORE_COLOR = (ft: number): string => {
   return '#b02a2a'
 }
 
-const GRADE = (ft: number): string => {
-  if (ft >= 90) return 'A+'
-  if (ft >= 80) return 'A'
-  if (ft >= 70) return 'B+'
-  if (ft >= 60) return 'B'
-  if (ft >= 50) return 'C+'
-  if (ft >= 40) return 'C'
-  if (ft >= 25) return 'D'
+const GRADE = (truthScore: number): string => {
+  if (truthScore >= 90) return 'A+'
+  if (truthScore >= 80) return 'A'
+  if (truthScore >= 70) return 'B'
+  if (truthScore >= 60) return 'C'
+  if (truthScore >= 50) return 'D'
   return 'F'
 }
 
@@ -62,21 +60,72 @@ function SeverityDots({ severity }: { severity: 1 | 2 | 3 }) {
   )
 }
 
-const STANCE_TOPICS = ['Housing', 'Healthcare', 'Immigration', 'Climate', 'Taxation', 'Education']
+interface StanceEntry { topic: string; label: string }
 
-function StancesPanel() {
+const PARTY_STANCES: Record<string, StanceEntry[]> = {
+  'fianna-fail': [
+    { topic: 'Housing', label: 'Market-led supply; opposes rent freezes' },
+    { topic: 'Healthcare', label: 'Sláintecare backer; public-private mix' },
+    { topic: 'Immigration', label: 'Managed integration; community-first' },
+    { topic: 'Climate', label: 'Gradual transition; protect agriculture' },
+    { topic: 'Taxation', label: 'Low corporate tax; broad income base' },
+    { topic: 'Education', label: 'Status quo funding; expand apprenticeships' },
+  ],
+  'fine-gael': [
+    { topic: 'Housing', label: 'Supply-side incentives; developer-friendly' },
+    { topic: 'Healthcare', label: 'Public-private partnership model' },
+    { topic: 'Immigration', label: 'Capacity-based; tighter processing' },
+    { topic: 'Climate', label: 'Technology-led; pro nuclear debate' },
+    { topic: 'Taxation', label: 'Fiscal discipline; resist new taxes' },
+    { topic: 'Education', label: 'Skills & enterprise; STEM investment' },
+  ],
+  'sinn-fein': [
+    { topic: 'Housing', label: 'Massive public build; ban rent increases' },
+    { topic: 'Healthcare', label: 'Universal free healthcare; end two-tier' },
+    { topic: 'Immigration', label: 'Rights-based; oppose direct provision' },
+    { topic: 'Climate', label: 'Just transition; protect rural workers' },
+    { topic: 'Taxation', label: 'Wealth tax; raise corporate rate' },
+    { topic: 'Education', label: 'Abolish student fees; fund DEIS' },
+  ],
+  'labour': [
+    { topic: 'Housing', label: 'Cost rental; affordable homes fund' },
+    { topic: 'Healthcare', label: 'Strengthen public system; GP access' },
+    { topic: 'Immigration', label: 'Pro-integration; adequate resourcing' },
+    { topic: 'Climate', label: 'Ring-fence carbon tax for retrofits' },
+    { topic: 'Taxation', label: 'Progressive income tax; close loopholes' },
+    { topic: 'Education', label: 'DEIS expansion; reduce class sizes' },
+  ],
+  'social-democrats': [
+    { topic: 'Housing', label: 'State-led building; Vienna model' },
+    { topic: 'Healthcare', label: 'Universal GP care; cut waiting lists' },
+    { topic: 'Immigration', label: 'Integration support; end direct provision' },
+    { topic: 'Climate', label: 'Ambitious 2030 targets; retrofit push' },
+    { topic: 'Taxation', label: 'Evidence-based reform; broaden base' },
+    { topic: 'Education', label: 'Early years investment; free childcare' },
+  ],
+  'green-party': [
+    { topic: 'Housing', label: 'Compact growth; sustainable communities' },
+    { topic: 'Healthcare', label: 'Preventative focus; active travel' },
+    { topic: 'Immigration', label: 'Pro-integration; community supports' },
+    { topic: 'Climate', label: 'Climate emergency; end fossil fuels' },
+    { topic: 'Taxation', label: 'Carbon tax champion; polluter pays' },
+    { topic: 'Education', label: 'Green schools; climate literacy' },
+  ],
+}
+
+function StancesPanel({ party }: { party: Party }) {
+  const stances = PARTY_STANCES[party.id] ?? []
   return (
     <aside className="stances-panel">
       <h2 className="section-heading">Key Stances</h2>
       <div className="stances-list">
-        {STANCE_TOPICS.map(topic => (
-          <div className="stance-row" key={topic}>
-            <span className="stance-topic">{topic}</span>
-            <div className="stance-bar-track" />
+        {stances.map(s => (
+          <div className="stance-row" key={s.topic}>
+            <span className="stance-topic">{s.topic}</span>
+            <span className="stance-label">{s.label}</span>
           </div>
         ))}
       </div>
-      <p className="stances-coming-soon">Coming soon</p>
     </aside>
   )
 }
@@ -126,16 +175,10 @@ export default function PoliticianPage({
   onBack: () => void
 }) {
   const contradictionScore = politician.contradictionScore ?? 0
-  const followThrough = 100 - contradictionScore
+  const truthScore = 100 - contradictionScore
   const contradictions = (politician.contradictions ?? [])
     .slice()
     .sort((a, b) => b.severity - a.severity)
-
-  // rank within party by follow-through (highest = 1st)
-  const partyRank = [...party.people]
-    .sort((a, b) => (b.contradictionScore != null && a.contradictionScore != null)
-      ? a.contradictionScore - b.contradictionScore : 0)
-    .findIndex(p => p.name === politician.name) + 1
 
   return (
     <div className="app politician-mode">
@@ -163,11 +206,8 @@ export default function PoliticianPage({
             </span>
           </div>
           <div className="politician-grade-block">
-            <span className="politician-grade" style={{ color: SCORE_COLOR(followThrough) }}>
-              {GRADE(followThrough)}
-            </span>
-            <span className="politician-rank">
-              {ordinal(partyRank)} in {party.name}
+            <span className="politician-grade" style={{ color: SCORE_COLOR(truthScore) }}>
+              {GRADE(truthScore)}
             </span>
           </div>
         </div>
@@ -178,21 +218,21 @@ export default function PoliticianPage({
           <div className="politician-content">
             <div className="score-section">
               <div className="score-row">
-                <span className="score-section-label">Follow Through Score</span>
-                <span className="score-value" style={{ color: SCORE_COLOR(followThrough) }}>
-                  {followThrough}
+                <span className="score-section-label">Truth Score</span>
+                <span className="score-value" style={{ color: SCORE_COLOR(truthScore) }}>
+                  {truthScore}
                 </span>
                 <span
                   className="score-badge"
-                  style={{ color: SCORE_COLOR(followThrough), borderColor: SCORE_COLOR(followThrough) }}
+                  style={{ color: SCORE_COLOR(truthScore), borderColor: SCORE_COLOR(truthScore) }}
                 >
-                  {SCORE_LABEL(followThrough)}
+                  {SCORE_LABEL(truthScore)}
                 </span>
               </div>
-              <div className="score-track">
+              <div className="score-track" style={{ '--unfilled': `${100 - truthScore}%` } as React.CSSProperties}>
                 <div
                   className="score-fill"
-                  style={{ width: `${followThrough}%`, backgroundColor: SCORE_COLOR(followThrough) }}
+                  style={{ width: `${truthScore}%`, backgroundColor: SCORE_COLOR(truthScore) }}
                 />
               </div>
             </div>
@@ -213,7 +253,7 @@ export default function PoliticianPage({
             )}
           </div>
 
-          <StancesPanel />
+          <StancesPanel party={party} />
         </div>
       </main>
     </div>

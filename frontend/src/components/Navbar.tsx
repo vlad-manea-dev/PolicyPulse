@@ -4,7 +4,7 @@ type View = 'home' | 'party' | 'leaderboard' | 'politician' | 'match' | 'wins'
 
 const NAV_ITEMS: { view: View; label: string }[] = [
   { view: 'home',        label: 'Parties' },
-  { view: 'leaderboard', label: 'Leaderboard' },
+  { view: 'leaderboard', label: 'Truth Leaderboard' },
   { view: 'match',       label: 'Find Your Match' },
   { view: 'wins',        label: 'Recent Wins' },
 ]

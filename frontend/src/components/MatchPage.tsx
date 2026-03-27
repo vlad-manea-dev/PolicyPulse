@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState } from 'react'
 import { PARTIES } from '../data/parties'
 import { getRegionFromEircode, IssueWeights } from '../data/eircodes'
 import './MatchPage.css'
@@ -37,10 +37,10 @@ function avgContradictionScore(partyId: string): number {
   return Math.round(scores.reduce((a, b) => a + b, 0) / scores.length)
 }
 
-function contradictionColor(score: number): string {
-  if (score >= 70) return '#b02a2a'
-  if (score >= 50) return '#c0622a'
-  return '#4a773c'
+function truthScoreColor(truthScore: number): string {
+  if (truthScore >= 60) return '#287556'
+  if (truthScore >= 40) return '#b08a00'
+  return '#b02a2a'
 }
 
 const DEFAULT_WEIGHTS: IssueWeights = {
@@ -65,16 +65,14 @@ export default function MatchPage() {
     setSubmitted(true)
   }
 
-  const results = useMemo(() => {
-    return PARTIES
-      .map(party => ({
-        party,
-        score: scoreParty(party.stances as IssueWeights, weights),
-        topIssues: topMatchingIssues(party.stances as IssueWeights, weights),
-        contradiction: avgContradictionScore(party.id),
-      }))
-      .sort((a, b) => b.score - a.score)
-  }, [weights])
+  const results = PARTIES
+    .map(party => ({
+      party,
+      score: scoreParty(party.stances as IssueWeights, weights),
+      topIssues: topMatchingIssues(party.stances as IssueWeights, weights),
+      contradiction: avgContradictionScore(party.id),
+    }))
+    .sort((a, b) => b.score - a.score)
 
   const topScore = results[0]?.score ?? 100
 
@@ -205,9 +203,9 @@ export default function MatchPage() {
                       )}
                       <span
                         className="result-contradiction"
-                        style={{ color: contradictionColor(contradiction) }}
+                        style={{ color: truthScoreColor(100 - contradiction) }}
                       >
-                        Avg contradiction: {contradiction}/100
+                        Avg truth score: {100 - contradiction}/100
                       </span>
                     </div>
                   </div>
@@ -216,7 +214,7 @@ export default function MatchPage() {
             </div>
 
             <p className="match-disclaimer">
-              Match scores reflect stated party positions weighted by your priorities. Contradiction scores show how often their TDs' voting records diverge from public promises.
+              Match scores reflect stated party positions weighted by your priorities. Truth scores show how well TDs' voting records align with their public promises.
             </p>
           </div>
         </div>

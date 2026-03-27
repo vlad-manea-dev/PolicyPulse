@@ -11,20 +11,20 @@ interface LeaderboardEntry {
   partyColor: string
 }
 
-const SCORE_LABEL = (score: number): string => {
-  if (score >= 80) return 'Chronic'
-  if (score >= 60) return 'Frequent'
-  if (score >= 40) return 'Moderate'
-  if (score >= 20) return 'Rare'
-  return 'Clean'
+const SCORE_LABEL = (truthScore: number): string => {
+  if (truthScore >= 80) return 'Excellent'
+  if (truthScore >= 60) return 'Good'
+  if (truthScore >= 40) return 'Mixed'
+  if (truthScore >= 20) return 'Poor'
+  return 'Very Poor'
 }
 
-const SCORE_COLOR = (score: number): string => {
-  if (score >= 80) return '#b02a2a'
-  if (score >= 60) return '#c0622a'
-  if (score >= 40) return '#b08a00'
-  if (score >= 20) return '#4a773c'
-  return '#287556'
+const SCORE_COLOR = (truthScore: number): string => {
+  if (truthScore >= 80) return '#287556'
+  if (truthScore >= 60) return '#4a773c'
+  if (truthScore >= 40) return '#b08a00'
+  if (truthScore >= 20) return '#c0622a'
+  return '#b02a2a'
 }
 
 export default function LeaderboardPage() {
@@ -37,7 +37,7 @@ export default function LeaderboardPage() {
       party.people.map(p => ({
         name: p.name,
         role: p.role ?? '',
-        score: p.contradictionScore ?? 0,
+        score: 100 - (p.contradictionScore ?? 0),
         partyId: party.id,
         partyName: party.name,
         partyColor: party.color,
@@ -55,13 +55,13 @@ export default function LeaderboardPage() {
     )
   }, [allEntries, filterParty, sortBy])
 
-  const topScore = filtered[0]?.score ?? 100
+  const bestScore = filtered[0]?.score ?? 100
 
   return (
     <div className="page-content leaderboard-mode">
       <header>
-        <h1>Contradiction Leaderboard</h1>
-        <p className="subtitle">Ranked by how often their Dáil record contradicts their public promises</p>
+        <h1>Truth Leaderboard</h1>
+        <p className="subtitle">Ranked by how well their Dáil record matches their public promises</p>
       </header>
 
       <main className="leaderboard-main">
@@ -103,7 +103,7 @@ export default function LeaderboardPage() {
             <span className="col-rank">#</span>
             <span className="col-name">Politician</span>
             <span className="col-party">Party</span>
-            <span className="col-score">Contradiction Score</span>
+            <span className="col-score">Truth Score</span>
           </div>
 
           {filtered.map((entry, idx) => {
@@ -133,7 +133,7 @@ export default function LeaderboardPage() {
                     <div
                       className="score-bar-fill"
                       style={{
-                        width: `${(entry.score / topScore) * 100}%`,
+                        width: `${(entry.score / bestScore) * 100}%`,
                         backgroundColor: SCORE_COLOR(entry.score),
                       }}
                     />
@@ -150,7 +150,7 @@ export default function LeaderboardPage() {
           })}
         </div>
 
-        <p className="scope-note">Scores are indicative and based on cross-referencing public statements with official Dáil voting records.</p>
+        <p className="scope-note">Truth scores are based on cross-referencing public statements with official Dáil voting records.</p>
       </main>
     </div>
   )
