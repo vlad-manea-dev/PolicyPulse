@@ -1,0 +1,555 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  background: #fff1e5;
+  color: #1a1a1a;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+.app {
+  max-width: 1400px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+header {
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #1a1a1a;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-text {
+  flex: 1;
+}
+
+.header-animation {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  color: #444;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* NEW: PARTIES SECTION */
+.parties-section {
+  margin-bottom: 3rem;
+}
+
+.parties-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.party-card {
+  background: #fff;
+  border: 2px solid #1a1a1a;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 6px 6px 0px #1a1a1a;
+  transition: transform 0.1s, box-shadow 0.1s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.party-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0px #1a1a1a;
+}
+
+.party-card:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #1a1a1a;
+}
+
+.party-card.active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px #1a1a1a;
+}
+
+.party-logo {
+  font-size: 1.8rem;
+  font-weight: 900;
+  font-family: monospace;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.party-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.party-name {
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.party-people {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #fff;
+  border: 3px solid #1a1a1a;
+  box-shadow: 4px 4px 0px #1a1a1a;
+  animation: slideDown 0.2s ease-out forwards;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.party-people h3 {
+  margin-bottom: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.person-card {
+  background: #f5f2eb;
+  border: 2px solid #1a1a1a;
+  padding: 0.75rem;
+  cursor: pointer;
+  transition: background 0.1s;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: left;
+  font-family: inherit;
+}
+
+.person-card:hover {
+  background: #eadecd;
+}
+
+.person-avatar {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: 2px solid #1a1a1a;
+}
+
+.person-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.person-name {
+  font-weight: 700;
+  color: #1a1a1a;
+  font-size: 0.95rem;
+}
+
+.person-role {
+  font-size: 0.75rem;
+  color: #444;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* EXISTING STYLES ADAPTED TO GRASSROOTS */
+.input-section {
+  padding-top: 2rem;
+  border-top: 2px dashed #ccc;
+}
+
+.promise-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.promise-card {
+  background: #fff;
+  border: 2px solid #1a1a1a;
+  box-shadow: 3px 3px 0px #ccc;
+  padding: 1rem;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  transition: box-shadow 0.15s, transform 0.15s;
+  width: 100%;
+}
+
+.promise-card:hover {
+  box-shadow: 5px 5px 0px #1a1a1a;
+  transform: translate(-2px, -2px);
+}
+
+.promise-card.selected {
+  border: 2px solid #b02a2a;
+  box-shadow: 4px 4px 0px #b02a2a;
+}
+
+.category {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #1a1a1a;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.politician {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: #1a1a1a;
+}
+
+.promise-text {
+  color: #333;
+  font-size: 1.05rem;
+  margin: 0.25rem 0;
+}
+
+.source {
+  font-size: 0.8rem;
+  color: #666;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.divider {
+  text-align: center;
+  color: #666;
+  font-weight: bold;
+  font-style: italic;
+  margin: 2rem 0;
+}
+
+.custom-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+input, textarea {
+  background: #fff;
+  border: 2px solid #1a1a1a;
+  padding: 0.8rem 1rem;
+  color: #1a1a1a;
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  width: 100%;
+  resize: vertical;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #b02a2a;
+  box-shadow: 2px 2px 0px #b02a2a;
+}
+
+.check-btn {
+  background: #1a1a1a;
+  color: #f5f2eb;
+  border: 2px solid #1a1a1a;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 4px 4px 0px #ccc;
+  transition: transform 0.1s, box-shadow 0.1s;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.check-btn:hover:not(:disabled) {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #1a1a1a;
+}
+
+.check-btn:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #1a1a1a;
+}
+
+.check-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.error {
+  color: #b02a2a;
+  font-weight: bold;
+  font-size: 1rem;
+  background: #fdd;
+  padding: 0.75rem;
+  border: 2px solid #b02a2a;
+}
+
+.result-section {
+  border-top: 3px double #1a1a1a;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.verdict-card {
+  background: #fff;
+  border: 3px solid;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: 5px 5px 0px #1a1a1a;
+}
+
+.verdict-badge {
+  color: white;
+  font-weight: 800;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  text-transform: uppercase;
+  border: 2px solid #1a1a1a;
+}
+
+.confidence {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #1a1a1a;
+}
+
+.reasoning {
+  color: #1a1a1a;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  background: #fff;
+  padding: 1.5rem;
+  border: 2px solid #1a1a1a;
+}
+
+.quotes h3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  background: #fff;
+  border: 2px solid #1a1a1a;
+  border-left: 6px solid #1a1a1a;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 3px 3px 0px #ccc;
+}
+
+blockquote p {
+  color: #1a1a1a;
+  font-style: italic;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+blockquote footer {
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+blockquote footer a {
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+.scope-note {
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .parties-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.centered-main {
+  width: 100%;
+}
+
+.centered-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+/* Expanded Home Mode Cards */
+.home-mode .party-card {
+  min-height: 200px;
+  padding: 2rem 1rem;
+}
+
+.home-mode .party-logo {
+  height: 120px;
+}
+
+/* Party Page Specific Styles */
+.back-btn {
+  background: transparent;
+  border: none;
+  color: #1a1a1a;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.back-btn:hover {
+  color: #b02a2a;
+}
+
+.party-page-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-bottom: 4px solid;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.party-page-logo {
+  height: 120px;
+}
+.party-page-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.party-people-large {
+  padding: 2rem 0;
+}
+
+.people-grid-large {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.person-card-large {
+  background: #f5f2eb;
+  border: 4px solid #1a1a1a;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: left;
+  font-family: inherit;
+  box-shadow: 6px 6px 0px #1a1a1a;
+  width: 100%;
+}
+
+.person-card-large:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0px #1a1a1a;
+  background: #fff;
+}
+
+.person-avatar-large {
+  min-width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  border: 3px solid #1a1a1a;
+}
+
+.person-info-large {
+  display: flex;
+  flex-direction: column;
+}
+
+.person-info-large .person-name {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #1a1a1a;
+}
+
+.person-info-large .person-role {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 0.2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
