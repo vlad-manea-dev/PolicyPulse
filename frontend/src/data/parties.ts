@@ -31,7 +31,7 @@ export const PARTIES: Party[] = [
     name: "Fine Gael",
     color: "#1e528d",
     logoText: "FG",
-    logoUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Fine_Gael_logo.png",
+    logoUrl: "/assets/fg_logo.png",
     people: [
       { name: "Simon Harris", role: "Taoiseach" },
       { name: "Helen McEntee", role: "Minister for Justice" },
@@ -44,7 +44,7 @@ export const PARTIES: Party[] = [
     name: "Sinn Féin",
     color: "#287556",
     logoText: "SF",
-    logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Sinn_F%C3%A9in_logo.svg/512px-Sinn_F%C3%A9in_logo.svg.png",
+    logoUrl: "/assets/sf_logo.png",
     people: [
       { name: "Mary Lou McDonald", role: "Party Leader" },
       { name: "Pearse Doherty", role: "Deputy Leader" },

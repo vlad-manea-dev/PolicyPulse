@@ -64,12 +64,12 @@ export default function App() {
   return (
     <div className="app home-mode">
       <header className="home-header">
-        <div className="header-text">
-          <h1>Promise Tracker</h1>
-          <p className="subtitle">Did they keep their word? Checked against the Dáil record.</p>
-        </div>
         <div className="header-animation">
           <PodiumAnimation />
+        </div>
+        <div className="header-text">
+          <h1>PolicyPulse</h1>
+          <p className="subtitle">Did they keep their word? Checked against the Dáil record.</p>
         </div>
       </header>
 
