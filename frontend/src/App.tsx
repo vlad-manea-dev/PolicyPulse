@@ -6,9 +6,10 @@ import PoliticalCompass from './components/PoliticalCompass'
 import LeaderboardPage from './components/LeaderboardPage'
 import PoliticianPage from './components/PoliticianPage'
 import MatchPage from './components/MatchPage'
+import WinsPage from './components/WinsPage'
 import Navbar from './components/Navbar'
 
-type View = 'home' | 'party' | 'leaderboard' | 'politician' | 'match'
+type View = 'home' | 'party' | 'leaderboard' | 'politician' | 'match' | 'wins'
 
 export default function App() {
   const [view, setView] = useState<View>('home')
@@ -38,6 +39,10 @@ export default function App() {
 
     if (view === 'match') {
       return <MatchPage />
+    }
+
+    if (view === 'wins') {
+      return <WinsPage />
     }
 
     if (view === 'politician' && selectedPolitician && selectedParty) {
@@ -100,6 +105,7 @@ export default function App() {
                     </div>
                     <div className="person-info-large">
                       <div className="person-name">{person.name}</div>
+                      {person.title && <div className="person-title">{person.title}</div>}
                       <div className="person-role">{person.role}</div>
                     </div>
                   </button>

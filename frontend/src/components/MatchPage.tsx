@@ -161,7 +161,7 @@ export default function MatchPage() {
           <div className="match-card results-card">
             <h3 className="match-card-title">
               Your Party Match
-              {!submitted && <span className="results-hint"> — enter an Eircode or adjust sliders to begin</span>}
+              {!submitted && <span className="results-hint"> Enter an Eircode or adjust sliders to begin.</span>}
             </h3>
 
             <div className="results-list">

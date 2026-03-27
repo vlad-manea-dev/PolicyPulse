@@ -44,6 +44,25 @@ function SeverityDots({ severity }: { severity: 1 | 2 | 3 }) {
   )
 }
 
+const STANCE_TOPICS = ['Housing', 'Healthcare', 'Immigration', 'Climate', 'Taxation', 'Education']
+
+function StancesPanel() {
+  return (
+    <aside className="stances-panel">
+      <h2 className="section-heading">Key Stances</h2>
+      <div className="stances-list">
+        {STANCE_TOPICS.map(topic => (
+          <div className="stance-row" key={topic}>
+            <span className="stance-topic">{topic}</span>
+            <div className="stance-bar-track" />
+          </div>
+        ))}
+      </div>
+      <p className="stances-coming-soon">Coming soon</p>
+    </aside>
+  )
+}
+
 function ContradictionCard({ c }: { c: Contradiction }) {
   return (
     <div className="contradiction-card">
@@ -105,6 +124,9 @@ export default function PoliticianPage({
           </div>
           <div className="politician-meta">
             <h1 className="politician-name">{politician.name}</h1>
+            {politician.title && (
+              <p className="politician-title">{politician.title}</p>
+            )}
             {politician.role && (
               <p className="politician-constituency">{politician.role}</p>
             )}
@@ -119,41 +141,47 @@ export default function PoliticianPage({
       </header>
 
       <main className="politician-main">
-        <div className="score-section">
-          <div className="score-row">
-            <span className="score-section-label">Contradiction Score</span>
-            <span className="score-value" style={{ color: SCORE_COLOR(score) }}>
-              {score}
-            </span>
-            <span
-              className="score-badge"
-              style={{ color: SCORE_COLOR(score), borderColor: SCORE_COLOR(score) }}
-            >
-              {SCORE_LABEL(score)}
-            </span>
-          </div>
-          <div className="score-track">
-            <div
-              className="score-fill"
-              style={{ width: `${score}%`, backgroundColor: SCORE_COLOR(score) }}
-            />
-          </div>
-        </div>
-
-        {contradictions.length === 0 ? (
-          <p className="no-contradictions">No contradiction data available for this TD.</p>
-        ) : (
-          <section className="contradictions-section">
-            <h2 className="section-heading">
-              {contradictions.length === 1 ? '1 Contradiction' : `${contradictions.length} Contradictions`}
-            </h2>
-            <div className="contradictions-list">
-              {contradictions.map((c, i) => (
-                <ContradictionCard key={i} c={c} />
-              ))}
+        <div className="politician-body">
+          <div className="politician-content">
+            <div className="score-section">
+              <div className="score-row">
+                <span className="score-section-label">Contradiction Score</span>
+                <span className="score-value" style={{ color: SCORE_COLOR(score) }}>
+                  {score}
+                </span>
+                <span
+                  className="score-badge"
+                  style={{ color: SCORE_COLOR(score), borderColor: SCORE_COLOR(score) }}
+                >
+                  {SCORE_LABEL(score)}
+                </span>
+              </div>
+              <div className="score-track">
+                <div
+                  className="score-fill"
+                  style={{ width: `${score}%`, backgroundColor: SCORE_COLOR(score) }}
+                />
+              </div>
             </div>
-          </section>
-        )}
+
+            {contradictions.length === 0 ? (
+              <p className="no-contradictions">No contradiction data available for this TD.</p>
+            ) : (
+              <section className="contradictions-section">
+                <h2 className="section-heading">
+                  {contradictions.length === 1 ? '1 Contradiction' : `${contradictions.length} Contradictions`}
+                </h2>
+                <div className="contradictions-list">
+                  {contradictions.map((c, i) => (
+                    <ContradictionCard key={i} c={c} />
+                  ))}
+                </div>
+              </section>
+            )}
+          </div>
+
+          <StancesPanel />
+        </div>
       </main>
     </div>
   )

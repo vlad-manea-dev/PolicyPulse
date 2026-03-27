@@ -1,10 +1,11 @@
 import './Navbar.css'
 
-type View = 'home' | 'party' | 'leaderboard' | 'politician' | 'match'
+type View = 'home' | 'party' | 'leaderboard' | 'politician' | 'match' | 'wins'
 
 const NAV_ITEMS: { view: View; label: string }[] = [
   { view: 'home',        label: 'Parties' },
   { view: 'leaderboard', label: 'Leaderboard' },
+  { view: 'wins',        label: 'Recent Wins' },
   { view: 'match',       label: 'Find Your Match' },
 ]
 

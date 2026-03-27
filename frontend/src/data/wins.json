@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-03-27",
+  "parties": {
+    "fianna-fail": [
+      {
+        "id": "ff-1",
+        "title": "Affordable Housing Levy enacted",
+        "summary": "Fianna Fáil pushed through the Affordable Housing Act, introducing a new levy on land zoned for housing to deter hoarding and release more sites for development.",
+        "date": "2025-11-04",
+        "category": "housing",
+        "source_name": "Oireachtas Record",
+        "source_url": ""
+      },
+      {
+        "id": "ff-2",
+        "title": "Rural broadband milestone: 1m premises connected",
+        "summary": "The National Broadband Plan, championed by Fianna Fáil ministers, passed the one-million-premises connected milestone, bringing high-speed fibre to rural Ireland.",
+        "date": "2025-09-12",
+        "category": "infrastructure",
+        "source_name": "DCCAE Press Release",
+        "source_url": ""
+      },
+      {
+        "id": "ff-3",
+        "title": "€500m Agriculture Resilience Fund agreed",
+        "summary": "Following CAP reform negotiations, Minister for Agriculture secured a dedicated €500 million resilience fund for Irish farmers facing income volatility.",
+        "date": "2025-07-22",
+        "category": "agriculture",
+        "source_name": "Department of Agriculture",
+        "source_url": ""
+      },
+      {
+        "id": "ff-4",
+        "title": "Nursing home support scheme expanded",
+        "summary": "Fianna Fáil secured an expansion of the Fair Deal nursing-home scheme, capping the contribution rate and making it accessible to more families.",
+        "date": "2026-01-18",
+        "category": "healthcare",
+        "source_name": "HSE Announcement",
+        "source_url": ""
+      }
+    ],
+    "fine-gael": [
+      {
+        "id": "fg-1",
+        "title": "Corporation tax deal: 15% global minimum agreed",
+        "summary": "Fine Gael negotiated Ireland's entry into the OECD Pillar Two global minimum tax framework, retaining significant flexibility for SMEs while satisfying EU partners.",
+        "date": "2025-10-01",
+        "category": "economy",
+        "source_name": "Department of Finance",
+        "source_url": ""
+      },
+      {
+        "id": "fg-2",
+        "title": "Garda recruitment surge: 1,000 new officers sworn in",
+        "summary": "Under Fine Gael's justice programme, the Garda College swore in its largest cohort in a decade, targeting 15,000 sworn officers by end of term.",
+        "date": "2026-02-14",
+        "category": "justice",
+        "source_name": "An Garda Síochána",
+        "source_url": ""
+      },
+      {
+        "id": "fg-3",
+        "title": "IDA record inward investment year",
+        "summary": "The IDA reported a record €14 billion in approved FDI projects, with Fine Gael's business-friendly tax and regulatory environment cited as a key factor.",
+        "date": "2026-01-09",
+        "category": "economy",
+        "source_name": "IDA Ireland",
+        "source_url": ""
+      },
+      {
+        "id": "fg-4",
+        "title": "Children's Hospital opens first wards",
+        "summary": "After years of delays, the National Children's Hospital opened its first wards to patients, with Fine Gael claiming credit for the final funding push.",
+        "date": "2025-12-01",
+        "category": "healthcare",
+        "source_name": "HSE",
+        "source_url": ""
+      }
+    ],
+    "sinn-fein": [
+      {
+        "id": "sf-1",
+        "title": "Cost-of-living motion carried: energy credit extended",
+        "summary": "Sinn Féin's Dáil motion calling for a further extension of the household energy credit secured enough cross-party support to pass, forcing government action.",
+        "date": "2025-11-20",
+        "category": "costOfLiving",
+        "source_name": "Dáil Éireann",
+        "source_url": ""
+      },
+      {
+        "id": "sf-2",
+        "title": "Vacancy tax amendment adopted by government",
+        "summary": "After sustained pressure from Sinn Féin, the government adopted an amended version of their vacancy tax proposal to penalise long-term derelict properties in cities.",
+        "date": "2025-08-30",
+        "category": "housing",
+        "source_name": "Dáil Éireann",
+        "source_url": ""
+      },
+      {
+        "id": "sf-3",
+        "title": "All-Ireland economic forum established",
+        "summary": "Sinn Féin's long-standing proposal for a formal North-South economic forum was agreed by both governments, marking a major step toward cross-border planning.",
+        "date": "2026-02-25",
+        "category": "borderIssues",
+        "source_name": "Irish Government Press Office",
+        "source_url": ""
+      },
+      {
+        "id": "sf-4",
+        "title": "Windfall tax on energy profits passed",
+        "summary": "Following Sinn Féin's sustained campaign, a temporary windfall solidarity tax on energy company profits was enacted to fund cost-of-living relief.",
+        "date": "2025-10-08",
+        "category": "economy",
+        "source_name": "Dáil Éireann",
+        "source_url": ""
+      }
+    ],
+    "green-party": [
+      {
+        "id": "gp-1",
+        "title": "Climate Action Plan 2025 targets confirmed on track",
+        "summary": "The EPA confirmed Ireland's 2025 sectoral emission ceilings are on track, crediting measures enacted under the Green Party's stewardship of the Climate Action and Low Carbon Development Act.",
+        "date": "2025-09-30",
+        "category": "climate",
+        "source_name": "EPA Ireland",
+        "source_url": ""
+      },
+      {
+        "id": "gp-2",
+        "title": "BusConnects Cork approved",
+        "summary": "Following Dublin, the Green Party-backed BusConnects redesign was approved for Cork, promising a 25% increase in bus frequency across the city.",
+        "date": "2025-08-05",
+        "category": "infrastructure",
+        "source_name": "NTA",
+        "source_url": ""
+      },
+      {
+        "id": "gp-3",
+        "title": "Offshore wind auction sets record",
+        "summary": "Ireland's second Renewable Electricity Support Scheme auction awarded 2.4 GW of offshore wind capacity, the largest single clean-energy procurement in Irish history.",
+        "date": "2026-01-30",
+        "category": "climate",
+        "source_name": "SEAI",
+        "source_url": ""
+      },
+      {
+        "id": "gp-4",
+        "title": "Single-use plastics ban extended to foodware",
+        "summary": "The Green Party secured regulations extending Ireland's single-use plastics ban to takeaway cups and containers, ahead of the EU implementation deadline.",
+        "date": "2025-10-22",
+        "category": "climate",
+        "source_name": "Department of the Environment",
+        "source_url": ""
+      }
+    ],
+    "labour": [
+      {
+        "id": "lab-1",
+        "title": "Living wage enacted in law",
+        "summary": "Labour's long-running campaign succeeded: the Low Pay Commission's living wage recommendation became a statutory floor, lifting the minimum wage above €14/hr.",
+        "date": "2026-01-01",
+        "category": "economy",
+        "source_name": "Department of Enterprise",
+        "source_url": ""
+      },
+      {
+        "id": "lab-2",
+        "title": "Statutory sick pay extended to 10 days",
+        "summary": "Labour-backed legislation extended mandatory employer-paid sick leave from 5 to 10 days, matching the European norm and covering 2.3 million workers.",
+        "date": "2025-07-01",
+        "category": "publicServices",
+        "source_name": "Workplace Relations Commission",
+        "source_url": ""
+      },
+      {
+        "id": "lab-3",
+        "title": "Right to request remote work strengthened",
+        "summary": "Amendments championed by Labour closed loopholes in the Work Life Balance Act, giving workers a stronger legal basis to seek remote-work arrangements.",
+        "date": "2025-11-11",
+        "category": "publicServices",
+        "source_name": "Dáil Éireann",
+        "source_url": ""
+      },
+      {
+        "id": "lab-4",
+        "title": "Public dental scheme extended to under-25s",
+        "summary": "Labour secured the extension of free public dental care to all under-25s, building on the Sláintecare roadmap.",
+        "date": "2026-02-01",
+        "category": "healthcare",
+        "source_name": "HSE",
+        "source_url": ""
+      }
+    ],
+    "social-democrats": [
+      {
+        "id": "sd-1",
+        "title": "Dáil lobbying register reform enacted",
+        "summary": "A Social Democrats Private Members Bill strengthening the lobbying register — requiring real-time disclosure and closing the 'revolving door' loophole — was adopted by the government.",
+        "date": "2025-10-28",
+        "category": "publicServices",
+        "source_name": "Standards in Public Office",
+        "source_url": ""
+      },
+      {
+        "id": "sd-2",
+        "title": "Cost-rental housing scheme scaled up",
+        "summary": "Following Social Democrats pressure, the government tripled the annual target for cost-rental homes, directly delivering below-market rents to middle-income households.",
+        "date": "2025-12-10",
+        "category": "housing",
+        "source_name": "Housing Agency",
+        "source_url": ""
+      },
+      {
+        "id": "sd-3",
+        "title": "GP visit card extended to all under-18s",
+        "summary": "After years of Social Democrats advocacy, free GP visits were extended to all children under 18, ending the income-threshold restriction.",
+        "date": "2026-01-07",
+        "category": "healthcare",
+        "source_name": "HSE",
+        "source_url": ""
+      },
+      {
+        "id": "sd-4",
+        "title": "Second public university for Dublin approved",
+        "summary": "The Social Democrats' proposal for a new technological university specifically serving the Dublin commuter belt was approved in principle in the Programme for Government.",
+        "date": "2025-08-20",
+        "category": "education",
+        "source_name": "HEA",
+        "source_url": ""
+      }
+    ]
+  }
+}

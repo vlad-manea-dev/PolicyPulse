@@ -13,6 +13,7 @@ export interface Contradiction {
 export interface Politician {
   name: string
   role?: string              // constituency
+  title?: string             // e.g. Taoiseach, TD
   photo?: string
   tdId?: string
   contradictionScore?: number  // 0–100, higher = more contradictions
@@ -41,6 +42,22 @@ export interface Party {
   compass: { economic: number; social: number }  // economic: -10 (left) to +10 (right), social: -10 (libertarian) to +10 (authoritarian)
   stances: PartyIssueStances
   people: Politician[]
+}
+
+// KildareStreet person ID → title
+const TD_TITLES: Record<string, string> = {
+  '172': 'Taoiseach',
+  '358': 'Tánaiste',
+  '298': 'Minister for Agriculture',
+  '215': 'Minister of State',
+  '490': 'Party Leader',
+  '506': 'Party Leader',
+  '343': 'Party Leader',
+  '9':   'Party Leader',
+  '102': 'Finance Spokesperson',
+  '21':  'Former Ceann Comhairle',
+  '5':   'Former Ceann Comhairle',
+  '287': 'Former Party Leader',
 }
 
 // Maps slug from all-scores.json → party id used in PARTY_META
@@ -129,6 +146,7 @@ export const PARTIES: Party[] = PARTY_META.map(meta => ({
   people: (scoredByPartyId.get(meta.id) ?? []).map(td => ({
     name: td.name,
     role: td.constituency,
+    title: TD_TITLES[td.id] ?? 'TD',
     photo: td.photo,
     tdId: td.id,
     // consistency_score (100=consistent) inverted to contradictionScore (100=most contradictions)
