@@ -1,0 +1,211 @@
+.leaderboard-mode {
+  background: #fff1e5;
+  min-height: 100vh;
+  max-width: 100%;
+  width: 100%;
+  padding: 3rem 5%;
+}
+
+.leaderboard-main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Controls */
+.leaderboard-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.control-label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #666;
+  white-space: nowrap;
+}
+
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.pill {
+  background: transparent;
+  border: 2px solid #ccc;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #555;
+  transition: all 0.1s;
+}
+
+.pill:hover {
+  border-color: #1a1a1a;
+  color: #1a1a1a;
+}
+
+.pill.active {
+  background: #1a1a1a;
+  border-color: #1a1a1a;
+  color: #fff1e5;
+}
+
+/* Table */
+.leaderboard-table {
+  border: 3px solid #1a1a1a;
+  background: #fff;
+  box-shadow: 6px 6px 0px #1a1a1a;
+  margin-bottom: 2rem;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 50px 1fr 160px 280px;
+  padding: 0.75rem 1.25rem;
+  background: #1a1a1a;
+  color: #fff1e5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  gap: 1rem;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 50px 1fr 160px 280px;
+  padding: 0.9rem 1.25rem;
+  border-bottom: 1px solid #e8e0d5;
+  align-items: center;
+  gap: 1rem;
+  transition: background 0.1s;
+  cursor: default;
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+.table-row.hovered {
+  background: #fdf6ee;
+}
+
+.table-row.top-1 {
+  background: #fffbea;
+  border-left: 4px solid #d4a800;
+}
+
+.table-row.top-2 {
+  background: #f7f7f7;
+  border-left: 4px solid #8c8c8c;
+}
+
+.table-row.top-3 {
+  background: #fff4ee;
+  border-left: 4px solid #b05a2a;
+}
+
+.table-row.top-1.hovered { background: #fff8d6; }
+.table-row.top-2.hovered { background: #efefef; }
+.table-row.top-3.hovered { background: #ffeadf; }
+
+/* Columns */
+.col-rank {
+  font-size: 1.3rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rank-num {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #888;
+}
+
+.col-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.politician-name {
+  font-weight: 800;
+  font-size: 1rem;
+  color: #1a1a1a;
+}
+
+.politician-role {
+  font-size: 0.78rem;
+  color: #666;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.col-party {
+  display: flex;
+  align-items: center;
+}
+
+.party-badge {
+  border: 2px solid;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  white-space: nowrap;
+}
+
+.col-score {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.score-bar-wrap {
+  flex: 1;
+  height: 10px;
+  background: #e8e0d5;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.score-bar-fill {
+  height: 100%;
+  transition: width 0.4s ease;
+}
+
+.score-number {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 800;
+  min-width: 28px;
+  text-align: right;
+}
+
+.score-label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  min-width: 58px;
+}

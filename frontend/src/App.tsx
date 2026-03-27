@@ -2,9 +2,11 @@ import { useState } from 'react'
 import './App.css'
 import { PARTIES, Party, Politician } from './data/parties'
 import PodiumAnimation from './components/PodiumAnimation'
+import PoliticalCompass from './components/PoliticalCompass'
+import LeaderboardPage from './components/LeaderboardPage'
 
 export default function App() {
-  const [view, setView] = useState<'home' | 'party'>('home')
+  const [view, setView] = useState<'home' | 'party' | 'leaderboard'>('home')
   const [selectedParty, setSelectedParty] = useState<Party | null>(null)
 
   const handlePartyClick = (party: Party) => {
@@ -18,31 +20,52 @@ export default function App() {
   }
 
   const handlePersonClick = (p: Politician) => {
-    // Later we can wire this up to the actual promise search logic
     console.log("Clicked", p.name)
+  }
+
+  if (view === 'leaderboard') {
+    return <LeaderboardPage onBack={() => setView('home')} />
   }
 
   if (view === 'party' && selectedParty) {
     return (
-      <div className="app">
+      <div className="app party-mode">
         <header>
-          <button className="back-btn" onClick={handleBack}>← Back to Parties</button>
+          <button className="back-btn" onClick={handleBack}>Back to Parties</button>
           <h1>{selectedParty.name}</h1>
           <p className="subtitle">Key representatives and politicians</p>
         </header>
         <main>
-          <div className="party-page-header" style={{ borderColor: selectedParty.color }}>
-            <div className="party-page-logo">
-              {selectedParty.logoUrl ? <img src={selectedParty.logoUrl} alt={selectedParty.name} /> : selectedParty.logoText}
+          {/* Party overview: logo | description | compass */}
+          <div className="party-overview">
+            <div className="party-logo-block">
+              <div className="party-page-logo">
+                {(selectedParty.detailLogoUrl || selectedParty.logoUrl)
+                  ? <img src={selectedParty.detailLogoUrl ?? selectedParty.logoUrl} alt={selectedParty.name} />
+                  : <span style={{ color: selectedParty.color }}>{selectedParty.logoText}</span>}
+              </div>
             </div>
-            <h2>The Team</h2>
+            <div className="party-description-block">
+              <p className="party-description">{selectedParty.description}</p>
+            </div>
+            <div className="party-compass-block">
+              <h3 className="compass-title">Political Compass</h3>
+              <PoliticalCompass
+                economic={selectedParty.compass.economic}
+                social={selectedParty.compass.social}
+                color={selectedParty.color}
+                partyName={selectedParty.name}
+              />
+            </div>
           </div>
-          
-          <div className="party-people-large" style={{ borderColor: selectedParty.color }}>
+
+          {/* Team section */}
+          <div className="party-team-section" style={{ borderColor: selectedParty.color }}>
+            <h2>The Team</h2>
             <div className="people-grid-large">
               {selectedParty.people.map((person, idx) => (
-                <button 
-                  key={idx} 
+                <button
+                  key={idx}
                   className="person-card-large"
                   onClick={() => handlePersonClick(person)}
                 >
@@ -61,6 +84,7 @@ export default function App() {
       </div>
     )
   }
+
   return (
     <div className="app home-mode">
       <header className="home-header">
@@ -74,13 +98,18 @@ export default function App() {
       </header>
 
       <main className="centered-main">
+        <div className="home-nav">
+          <button className="leaderboard-btn" onClick={() => setView('leaderboard')}>
+            Contradiction Leaderboard →
+          </button>
+        </div>
         <section className="parties-section">
           <div className="parties-grid centered-grid">
             {PARTIES.map(party => (
-              <button 
-                key={party.id} 
+              <button
+                key={party.id}
                 className="party-card"
-                style={{ 
+                style={{
                   borderColor: party.color,
                   color: party.color
                 }}

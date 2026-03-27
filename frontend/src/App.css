@@ -19,21 +19,31 @@ body {
   padding: 3rem 0;
 }
 
+.party-mode {
+  background: #fff1e5;
+  min-height: 100vh;
+  max-width: 100%;
+  width: 100%;
+  padding: 3rem 5%;
+}
+
 header {
   margin-bottom: 3rem;
   border-bottom: 3px solid #1a1a1a;
   padding-bottom: 1rem;
-  text-align: left;
+  text-align: center;
 }
 
 .home-header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .header-text {
-  flex: 1;
+  text-align: center;
 }
 
 .header-animation {
@@ -52,12 +62,20 @@ h1 {
   letter-spacing: -0.02em;
 }
 
-.subtitle {
-  color: #444;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-weight: 500;
-  font-size: 1.1rem;
+.tagline {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #1a1a1a;
   margin-top: 0.5rem;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+.subtitle {
+  color: #555;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 0.4rem;
 }
 
 h2 {
@@ -438,6 +456,32 @@ blockquote footer a {
   width: 100%;
 }
 
+.home-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.leaderboard-btn {
+  background: #1a1a1a;
+  color: #fff1e5;
+  border: 2px solid #1a1a1a;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px #888;
+  transition: transform 0.1s, box-shadow 0.1s;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.leaderboard-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #1a1a1a;
+}
+
 .centered-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -484,12 +528,69 @@ blockquote footer a {
 }
 
 .party-page-logo {
-  height: 120px;
+  width: 100%;
+  max-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .party-page-logo img {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 180px;
+  width: auto;
   object-fit: contain;
+}
+
+/* Party overview: logo | description | compass */
+.party-overview {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 3px solid #1a1a1a;
+}
+
+.party-logo-block {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+}
+
+.party-description-block {
+  flex: 1;
+}
+
+.party-description {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #333;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+.party-compass-block {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.compass-title {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: #444;
+  text-align: center;
+}
+
+.party-team-section {
+  border-top: 4px solid;
+  padding-top: 2rem;
 }
 
 .party-people-large {
