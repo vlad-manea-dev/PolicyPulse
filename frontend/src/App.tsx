@@ -4,10 +4,12 @@ import { PARTIES, Party, Politician } from './data/parties'
 import PodiumAnimation from './components/PodiumAnimation'
 import PoliticalCompass from './components/PoliticalCompass'
 import LeaderboardPage from './components/LeaderboardPage'
+import PoliticianPage from './components/PoliticianPage'
 
 export default function App() {
-  const [view, setView] = useState<'home' | 'party' | 'leaderboard'>('home')
+  const [view, setView] = useState<'home' | 'party' | 'leaderboard' | 'politician'>('home')
   const [selectedParty, setSelectedParty] = useState<Party | null>(null)
+  const [selectedPolitician, setSelectedPolitician] = useState<Politician | null>(null)
 
   const handlePartyClick = (party: Party) => {
     setSelectedParty(party)
@@ -20,11 +22,25 @@ export default function App() {
   }
 
   const handlePersonClick = (p: Politician) => {
-    console.log("Clicked", p.name)
+    setSelectedPolitician(p)
+    setView('politician')
   }
 
   if (view === 'leaderboard') {
     return <LeaderboardPage onBack={() => setView('home')} />
+  }
+
+  if (view === 'politician' && selectedPolitician && selectedParty) {
+    return (
+      <PoliticianPage
+        politician={selectedPolitician}
+        party={selectedParty}
+        onBack={() => {
+          setSelectedPolitician(null)
+          setView('party')
+        }}
+      />
+    )
   }
 
   if (view === 'party' && selectedParty) {

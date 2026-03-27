@@ -1,0 +1,299 @@
+.politician-mode {
+  background: #fff1e5;
+  min-height: 100vh;
+  max-width: 100%;
+  width: 100%;
+  padding: 3rem 5%;
+}
+
+.politician-header {
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #1a1a1a;
+  padding-bottom: 2rem;
+}
+
+.politician-hero {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+  border-left: 6px solid;
+}
+
+.politician-avatar {
+  flex-shrink: 0;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 4px solid;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f2eb;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  font-family: 'Palatino Linotype', Palatino, serif;
+}
+
+.politician-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.politician-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.politician-name {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  text-transform: none;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.politician-constituency {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 1rem;
+  color: #555;
+}
+
+.politician-party-badge {
+  display: inline-block;
+  border: 2px solid;
+  padding: 0.2rem 0.75rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  align-self: flex-start;
+}
+
+/* Score section */
+.politician-main {
+  max-width: 800px;
+}
+
+.score-section {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  background: #fff;
+  border: 3px solid #1a1a1a;
+  box-shadow: 5px 5px 0 #1a1a1a;
+}
+
+.score-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.score-section-label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #888;
+  flex: 1;
+}
+
+.score-value {
+  font-family: 'Palatino Linotype', Palatino, serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.score-badge {
+  border: 2px solid;
+  padding: 0.25rem 0.75rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.score-track {
+  height: 10px;
+  background: #e8e0d5;
+  border: 2px solid #1a1a1a;
+  overflow: hidden;
+}
+
+.score-fill {
+  height: 100%;
+}
+
+/* Contradictions section */
+.section-heading {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.contradictions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Contradiction card */
+.contradiction-card {
+  background: #fff;
+  border: 3px solid #1a1a1a;
+  box-shadow: 5px 5px 0 #1a1a1a;
+  overflow: hidden;
+}
+
+.contradiction-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 1.25rem;
+  background: #1a1a1a;
+  gap: 1rem;
+}
+
+.contradiction-topic {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #fff1e5;
+}
+
+.contradiction-severity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.severity-dots {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.severity-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.severity-label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Quotes */
+.quote-block {
+  padding: 1.25rem 1.5rem 1rem;
+}
+
+.quote-a {
+  background: #fff;
+}
+
+.quote-b {
+  background: #fdf6ee;
+}
+
+.quote-text {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 1.05rem;
+  font-style: italic;
+  line-height: 1.75;
+  color: #1a1a1a;
+  margin-bottom: 0.6rem;
+}
+
+.quote-date {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.78rem;
+  color: #777;
+  font-style: normal;
+}
+
+/* VS divider */
+.vs-divider {
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  background: #fff1e5;
+  gap: 0;
+}
+
+.vs-line {
+  flex: 1;
+  height: 2px;
+  background: #1a1a1a;
+}
+
+.vs-text {
+  padding: 0.2rem 0.65rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 900;
+  color: #b02a2a;
+  letter-spacing: 0.15em;
+  border: 2px solid #b02a2a;
+  background: #fff1e5;
+}
+
+/* Explanation */
+.contradiction-explanation {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 0.9rem 1.5rem;
+  background: #f5f2eb;
+  border-top: 1px solid #e8e0d5;
+}
+
+.explanation-label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #888;
+  flex-shrink: 0;
+  padding-top: 0.15rem;
+}
+
+.explanation-text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.875rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.no-contradictions {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #888;
+  font-style: italic;
+  text-align: center;
+  padding: 3rem;
+  border: 2px dashed #ccc;
+}
