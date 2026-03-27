@@ -1,0 +1,697 @@
+{
+  "parties": [
+    {
+      "name": "Sinn Féin",
+      "slug": "sf",
+      "tds": [
+        {
+          "id": "102",
+          "name": "Pearse Doherty",
+          "constituency": "Donegal",
+          "photo": "https://www.kildarestreet.com/images/mps/102.jpg",
+          "score": 78,
+          "contradictions": [
+            {
+              "topic": "HomeHeatingOilTax",
+              "quote_a": "liquid fuel for motor or heating purposes is subject to excise duty in the form of...",
+              "quote_a_date": "2026-03-26",
+              "quote_b": "The Minister for Finance bizarrely claimed, in an attempt to defend abandoning 750,000 households who rely on home heating oil, that there is no excise duty on home heating oil.",
+              "quote_b_date": "2026-03-26",
+              "severity": 2,
+              "explanation": "Doherty states the Minister claimed there is no excise duty on home heating oil, yet he also cites what the same Minister previously told the Dáil about excise duty on heating oil, creating an internal contradiction about what position was actually stated."
+            },
+            {
+              "topic": "FuelCrisisTiming",
+              "quote_a": "Over the last 48 hours, parents of leaving certificate and junior certificate students received letters telling them that the Government was bringing back examination fees.",
+              "quote_a_date": "2026-03-19",
+              "quote_b": "given the chaotic way the Government brought this forward, despite the fact it had four weeks to deal with this issue",
+              "quote_b_date": "2026-03-24",
+              "severity": 1,
+              "explanation": "Doherty criticizes the Government for having four weeks to address the fuel crisis while simultaneously raising a separate issue (exam fees) occurring within 48 hours, conflating two distinct timescales and policy failures."
+            },
+            {
+              "topic": "PropertySupply",
+              "quote_a": "There cannot be enough supply for new houses to come on stream for at least another two years.",
+              "quote_a_date": "2016-10-19",
+              "quote_b": "By the time that the review is done, not one property will have been built that was not already intended to be built. There is at least a two-year lead-in period comprising planning permission, site development, construction and sale.",
+              "quote_b_date": "2016-11-23",
+              "severity": 1,
+              "explanation": "In October 2016 Doherty states a two-year supply shortage, but by November 2016 he uses the same two-year timeframe to argue properties are already planned, shifting from scarcity argument to inevitability argument using identical timing."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "84",
+          "name": "Seán Crowe",
+          "constituency": "Dublin South West",
+          "photo": "https://www.kildarestreet.com/images/mps/84.jpg",
+          "score": 85,
+          "contradictions": [
+            {
+              "topic": "DEIS",
+              "quote_a": "It has to be about education outcomes for children within those schools. It cannot be on budgetary issues alone.",
+              "quote_a_date": "2012-02-23",
+              "quote_b": "The cuts to the school in question in this matter arise from budget 2012. At the time I said the budget, in particular the education budget, lacked balance and in many cases was affecting the most vulnerable.",
+              "quote_b_date": "2012-03-08",
+              "severity": 1,
+              "explanation": "Crowe initially argued DEIS decisions should not be about budget, but later criticized cuts by referencing the budget as the primary cause of school difficulties."
+            },
+            {
+              "topic": "Privatisation",
+              "quote_a": "Speaking in support of this motion it is important we are mindful that the sale of State assets is an integral part of Fine Gael policy. Now, unfortunately, we know that Labour Party is on the privatisation bandwagon, despite its election promises and commitments to keep State assets in public ownership.",
+              "quote_a_date": "2012-02-28",
+              "quote_b": "I have talked to people who worked in Waterford Crystal, La Senza, TalkTalk, Lagan Brick, Vita Cortex, Game and Wilson Publishing and used this Chamber to publicise their cases.",
+              "quote_b_date": "2012-05-01",
+              "severity": 1,
+              "explanation": "Crowe criticized Labour's privatisation stance, yet later engaged with private sector job losses without clearly distinguishing between public asset sales and private company failures."
+            },
+            {
+              "topic": "Ireland neutrality",
+              "quote_a": "The world needs more honest brokers like a neutral Ireland. We have never been a coloniser.",
+              "quote_a_date": "2026-02-17",
+              "quote_b": "With our long-standing commitment to human rights and neutrality in global conflicts, Ireland is well positioned to play a constructive role in addressing the humanitarian crisis in Gaza. We must now use whatever leverage we have in a diplomatic capacity on the international stage.",
+              "quote_b_date": "2025-07-08",
+              "severity": 2,
+              "explanation": "Crowe emphasized Ireland's neutrality as a core value in 2026, yet in 2025 advocated for sanctions against Israel and using 'every lever' including potentially compromising neutrality to pressure one party in a conflict."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "5",
+          "name": "Aengus Ó Snodaigh",
+          "constituency": "Dublin South Central",
+          "photo": "https://www.kildarestreet.com/images/mps/5.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "Taxi_Industry",
+              "quote_a": "I am asking about legislation which I hope will be forthcoming and which would address the appalling state of the taxi industry, the high rate of suicides among taxi drivers and the failure of the taxi regulator to deal with the issue to date.",
+              "quote_a_date": "2010-10-05",
+              "quote_b": "She said it does not serve the debate well to take certain courses of action and to encourage people onto the streets. She said the Government is willing to listen.",
+              "quote_b_date": "2010-10-28",
+              "severity": 1,
+              "explanation": "The speaker shifts from demanding urgent legislative action and criticizing the regulator's failure to accepting the government's willingness to listen without immediate action, suggesting a more accommodating stance."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "324",
+          "name": "Dessie Ellis",
+          "constituency": "Dublin North-West",
+          "photo": "https://www.kildarestreet.com/images/mps/324.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "public_transport_subsidies",
+              "quote_a": "if we continue to cut the subsidy to these networks, we will end up with more cuts and less people on public transport.",
+              "quote_a_date": "2013-03-27",
+              "quote_b": "There are alternatives. There are people on higher pay in Bus Éireann and other companies, including the CEOs who are paid an awful amount.",
+              "quote_b_date": "2013-05-15",
+              "severity": 1,
+              "explanation": "Ellis criticizes subsidy cuts as the primary problem, but later suggests the real issue is executive compensation rather than funding levels, implying subsidy cuts may not be the main driver of service problems."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "312",
+          "name": "Pádraig Mac Lochlainn",
+          "constituency": "Donegal",
+          "photo": "https://www.kildarestreet.com/images/mps/312.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "Libya",
+              "quote_a": "I am glad Colonel Gaddafi is gone, but that country has been destroyed because of the abuse by NATO powers of a UN Security Council resolution.",
+              "quote_a_date": "2013-03-14",
+              "quote_b": "I refer to the UN Security Council resolution on Libya which did not stipulate that France and Britain engage in regime change and removal, but which is what they did.",
+              "quote_b_date": "2013-03-14",
+              "severity": 1,
+              "explanation": "While both statements criticize NATO's abuse of the UN resolution, the first expresses gladness at Gaddafi's removal while the second criticizes the unauthorized regime change, creating an internal tension about whether the outcome was positive."
+            }
+          ],
+          "say_vs_vote": null
+        }
+      ]
+    },
+    {
+      "name": "Fianna Fáil",
+      "slug": "ff",
+      "tds": [
+        {
+          "id": "21",
+          "name": "Seán Ó Fearghaíl",
+          "constituency": "Kildare South",
+          "photo": "https://www.kildarestreet.com/images/mps/21.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "Gaza",
+              "quote_a": "I am delighted we are having this debate on Gaza. We cannot have enough debates on this matter for as long as the travesty happening there lasts.",
+              "quote_a_date": "2025-10-01",
+              "quote_b": "We welcome the ceasefire, although it is a ceasefire of sorts, that has happened in Gaza but we are aware of the fact that slaughter of the innocents still continues and we do not, in truth, have a full and total ceasefire.",
+              "quote_b_date": "2025-11-27",
+              "severity": 1,
+              "explanation": "The speaker moved from demanding ongoing debates about Gaza's 'travesty' to welcoming a ceasefire agreement, representing a shift from maximalist to pragmatic position on the conflict resolution."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "120",
+          "name": "Seán Fleming",
+          "constituency": "Laois",
+          "photo": "https://www.kildarestreet.com/images/mps/120.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "neutrality",
+              "quote_a": "Ireland's policy of military neutrality is characterised by non-membership of military alliances, or common or mutual defence arrangements, and this policy choice has been practised by successive Governments since the Second World War",
+              "quote_a_date": "2024-05-29",
+              "quote_b": "On the issue of neutrality, the world has changed since the last general election. In my lifetime, I have never seen an invasion by Russia into Europe before.",
+              "quote_b_date": "2024-05-29",
+              "severity": 2,
+              "explanation": "Fleming asserts Ireland's unchanged neutrality policy while simultaneously arguing that circumstances have fundamentally changed, creating ambiguity about whether traditional neutrality remains applicable or has been superseded by new security realities."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "122",
+          "name": "Pat Gallagher",
+          "constituency": "Donegal",
+          "photo": "https://www.kildarestreet.com/images/mps/122.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "Aer_Lingus_passport_requirement",
+              "quote_a": "This may not be a matter for the Government of the UK; I think it is Aer Lingus that is involved. It is sharp practice to introduce this.",
+              "quote_a_date": "2026-02-11",
+              "quote_b": "I want to again raise the issue of Aer Lingus taking a unilateral decision to insist that those travelling from the Republic to mainland Great Britain must have a passport.",
+              "quote_b_date": "2026-03-03",
+              "severity": 1,
+              "explanation": "On 2026-02-11, the speaker suggests uncertainty about whether Aer Lingus is responsible ('I think it is Aer Lingus'), but by 2026-03-03 they state definitively that 'Aer Lingus' took the unilateral decision, presenting it as established fact rather than speculation."
+            },
+            {
+              "topic": "Defective_blocks_scheme",
+              "quote_a": "It is not working and it needs a lot more than tweaking at the edges. I said in the debate on Second Stage that I had the honour of representing this country in the United States...",
+              "quote_a_date": "2025-12-10",
+              "quote_b": "I will refer to some of the positives in the amendment to the defective blocks legislation. For example, it is an opportunity for retrospective payments to be made to homeowners who previously hit the scheme cap.",
+              "quote_b_date": "2025-12-02",
+              "severity": 1,
+              "explanation": "The speaker praises positives and retrospective payment opportunities on 2025-12-02 but then states on 2025-12-10 that the scheme 'is not working' and needs major overhaul, showing a shift from cautiously optimistic to highly critical."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "172",
+          "name": "Micheál Martin",
+          "constituency": "Cork South-Central",
+          "photo": "https://www.kildarestreet.com/images/mps/172.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "DáilInterruptions",
+              "quote_a": "With the greatest of respect, I did not interrupt any speaker in this House today - not one. The Deputy should allow some semblance of democracy. It is in short supply from him and from Members on that side of the House.",
+              "quote_a_date": "2014-03-04",
+              "quote_b": "I do not want to delay proceedings further, but I ask the Taoiseach to clarify whether there will be time for questions and answers after each Minister's contribution, which is what was suggested earlier.",
+              "quote_b_date": "2014-03-04",
+              "severity": 1,
+              "explanation": "Martin claims he did not interrupt any speaker while simultaneously asking for procedural clarification about the debate structure, which itself constitutes an interruption of proceedings."
+            },
+            {
+              "topic": "CabinetAccess",
+              "quote_a": "As a Government Minister, I never had, nor did I seek, nor was I ever informed that I would have, access to either the agendas or the minutes of Governments that went before me or before the Governments in which I served.",
+              "quote_a_date": "2014-03-11",
+              "quote_b": "I put it to the Minister of State that there is a constitutional framework which governs access to Cabinet papers. From my understanding, nobody has the right or entitlement under the law to access the Cabinet meetings, be they the agenda or minutes, of previous Governments unless it is within the law.",
+              "quote_b_date": "2014-03-11",
+              "severity": 1,
+              "explanation": "Martin first claims he never had access to previous Cabinet papers, then shifts to a more legalistic position acknowledging that access is technically possible within legal frameworks (12/30 year rules), undermining his initial absolute position."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "188",
+          "name": "John McGuinness",
+          "constituency": "Carlow-Kilkenny",
+          "photo": "https://www.kildarestreet.com/images/mps/188.jpg",
+          "score": 95,
+          "contradictions": [
+            {
+              "topic": "efficiency",
+              "quote_a": "I ask Deputies, the Minister and Ministers of State to stick to their allocated time. I do not want to get into a crossfire exchange with Members. I ask for greater efficiency in the use of their time.",
+              "quote_a_date": "2026-03-19",
+              "quote_b": "I welcome the measures that have been introduced. They were timely and perhaps they could have been introduced earlier if we were agile enough as a State to turn around, identify where the problems are and then deal with them but, unfortunately, we are not. It signals that there is a clear dysfunction at the heart of administration in this country and that we do not plan for the future.",
+              "quote_b_date": "2026-03-25",
+              "severity": 2,
+              "explanation": "On March 19 he demands greater efficiency and discipline in time management, but on March 25 he criticizes the State itself for lacking agility and efficiency in identifying and addressing problems, suggesting systemic dysfunction rather than individual discipline."
+            }
+          ],
+          "say_vs_vote": null
+        }
+      ]
+    },
+    {
+      "name": "Fine Gael",
+      "slug": "fg",
+      "tds": [
+        {
+          "id": "298",
+          "name": "Martin Heydon",
+          "constituency": "Kildare South",
+          "photo": "https://www.kildarestreet.com/images/mps/298.jpg",
+          "score": 85,
+          "contradictions": [
+            {
+              "topic": "KildareSchools",
+              "quote_a": "Last week's announcement by the Department of 16 new second level schools was met by real disappointment in Kildare South.",
+              "quote_a_date": "2018-04-18",
+              "quote_b": "I very much welcome the 11 new family resource centres announced recently by the Minister, two of which will be in Kildare, doubling the number in the county.",
+              "quote_b_date": "2018-05-01",
+              "severity": 1,
+              "explanation": "Heydon expresses disappointment about not receiving a new school in April 2018, but then celebrates receiving new centres in May 2018, though these are family resource centres rather than schools—a different service type that he had been advocating for separately."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "110",
+          "name": "Frank Feighan",
+          "constituency": "Sligo-Leitrim",
+          "photo": "https://www.kildarestreet.com/images/mps/110.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "Tourism",
+              "quote_a": "There is a certain type of tourism in Holland, although it is not the type of tourism I would like in this country as we would look for a purer tourism.",
+              "quote_a_date": "2011-09-22",
+              "quote_b": "We now see all those cars with surf boards on them travelling back to Dublin in the middle of winter. In Dublin Airport one can see people flying in from the United States to surf in Ireland. That must be recognised and...",
+              "quote_b_date": "2011-09-29",
+              "severity": 2,
+              "explanation": "He initially rejected certain types of tourism as 'impure' but then advocated for recognizing and developing surf tourism, a form of niche tourism that contradicts his earlier stated preference for 'purer' tourism forms."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "215",
+          "name": "Kieran O'Donnell",
+          "constituency": "Limerick City",
+          "photo": "https://www.kildarestreet.com/images/mps/215.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "St Vincent's",
+              "quote_a": "Phase 1 of the St. Vincent's development is substantially completed, with the new unit currently being equipped.",
+              "quote_a_date": "2026-01-22",
+              "quote_b": "Phase 1 of the current capital project at St. Vincent's is substantially complete and consists of a new two-storey development containing 50 single en suite rooms, adjacent and linked to the existing facility. When complete, St.",
+              "quote_b_date": "2026-01-22",
+              "severity": 1,
+              "explanation": "Same date statements use slightly different language ('substantially completed' vs 'substantially complete') and one mentions 50 rooms while earlier context suggests different capacity figures, creating minor descriptive inconsistency."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "51",
+          "name": "Jerry Buttimer",
+          "constituency": "Cork South-Central",
+          "photo": "https://www.kildarestreet.com/images/mps/51.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "Greenways",
+              "quote_a": "I assure the Deputy that the Minister, the Minister of State, Deputy Canney, and I are very committed to this greenway project. The Deputy is right, and he paints a wonderful picture. I look forward to visiting with him again because he has painted a wonderful, broad brush of what it can do.",
+              "quote_a_date": "2026-02-26",
+              "quote_b": "What might be unique in this case is that the scheme has general public acceptance and deserves to progress more quickly than others. In my own area of Cork we have a huge issue with a particular greenway, which is...",
+              "quote_b_date": "2026-02-26",
+              "severity": 2,
+              "explanation": "Buttimer expresses full commitment to progressing a greenway project quickly, but then indicates that in his own Cork area there is 'a huge issue' with a particular greenway, suggesting resistance or complications in his own constituency."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "358",
+          "name": "Simon Harris",
+          "constituency": "Wicklow",
+          "photo": "https://www.kildarestreet.com/images/mps/358.jpg",
+          "score": 95,
+          "contradictions": [
+            {
+              "topic": "Taxation",
+              "quote_a": "I do not disagree with the Deputy that we should ensure that as much information as possible is available in an easy to digest way for the public.",
+              "quote_a_date": "2015-12-11",
+              "quote_b": "I get confused sometimes as to the Sinn Féin economic position. Is it everything must be free or is it that we should we target supports at those most in need?",
+              "quote_b_date": "2026-03-26",
+              "severity": 1,
+              "explanation": "Harris initially supported making information easily available to the public on tax matters, but later questioned whether the position should be universal provision versus targeted support, suggesting a shift in his advocacy for public transparency versus selective benefits."
+            }
+          ],
+          "say_vs_vote": null
+        }
+      ]
+    },
+    {
+      "name": "Labour",
+      "slug": "labour",
+      "tds": [
+        {
+          "id": "559",
+          "name": "Ciarán Ahern",
+          "constituency": "Dublin South West",
+          "photo": "https://www.kildarestreet.com/images/mps/559.jpg",
+          "score": 78,
+          "contradictions": [
+            {
+              "topic": "transport_police",
+              "quote_a": "Will he outline his plans for a dedicated transport police force?",
+              "quote_a_date": "2025-06-24",
+              "quote_b": "We would like to see a separate division of An Garda Síochána rather than a separate policing force.",
+              "quote_b_date": "2025-06-24",
+              "severity": 2,
+              "explanation": "Ahern initially asked for a dedicated transport police force but later clarified he preferred a separate Garda division instead, reversing his initial proposal on the same day."
+            },
+            {
+              "topic": "carbon_tax",
+              "quote_a": "The Labour Party believes that it is an important tax and that the polluter-pays principle is an important one in terms of our response to the climate crisis.",
+              "quote_a_date": "2025-09-23",
+              "quote_b": "I admit I am uncomfortable with the element of it concerning the carbon tax from a climate perspective.",
+              "quote_b_date": "2025-09-23",
+              "severity": 2,
+              "explanation": "Ahern stated support for carbon tax on the same date while simultaneously expressing discomfort with it from a climate perspective, creating an internal contradiction."
+            },
+            {
+              "topic": "BusConnects",
+              "quote_a": "I am a big supporter of the BusConnects project. The aim of improving connectivity across our city is very important. I have been on the record as supportive of it.",
+              "quote_a_date": "2025-11-18",
+              "quote_b": "I have been very straight about my support for the BusConnects projects and the objective of the programme...When implementing any change to routes there will always be issues...",
+              "quote_b_date": "2026-02-26",
+              "severity": 1,
+              "explanation": "While maintaining overall support for BusConnects, Ahern shifted from unqualified support to highlighting significant problems with implementation and route changes affecting commuters."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "287",
+          "name": "Alan Kelly",
+          "constituency": "Tipperary North",
+          "photo": "https://www.kildarestreet.com/images/mps/287.jpg",
+          "score": 85,
+          "contradictions": [
+            {
+              "topic": "privatization",
+              "quote_a": "Neither Dublin Bus nor Bus Éireann is being or will be privatised over the lifetime of this Government.",
+              "quote_a_date": "2014-04-02",
+              "quote_b": "I have no issue with the amendment per se but, as Deputy Gannon said, I am concerned that we are going down the road of enshrining the use of private accommodation.",
+              "quote_b_date": "2026-02-25",
+              "severity": 1,
+              "explanation": "While not directly contradictory, Kelly's strong opposition to privatization in 2014 contrasts with his acceptance of private accommodation use by 2026, suggesting a shift in position on public versus private provision."
+            },
+            {
+              "topic": "infrastructure",
+              "quote_a": "We are working to put the infrastructure in place across the country. The Dublin bicycle scheme has been expanded and schemes are being established in Cork, Limerick and Galway in the coming months.",
+              "quote_a_date": "2014-06-26",
+              "quote_b": "We said this last week. All of the Opposition have argued that we should have the infrastructure for the provision of accommodation. If we go down the road of enshrining the use of private accommodation.",
+              "quote_b_date": "2026-02-25",
+              "severity": 1,
+              "explanation": "Kelly shifted from emphasizing government delivery of infrastructure projects to criticizing the government's reliance on private infrastructure provision, reversing his earlier approach."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "343",
+          "name": "Gerald Nash",
+          "constituency": "Louth",
+          "photo": "https://www.kildarestreet.com/images/mps/343.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "Zero-hour contracts",
+              "quote_a": "Despite the protestations of some people, we fully transposed the part-time workers directive a number of years ago in consultation with the social partners, including the trade unions, which were satisfied to sign off on it.",
+              "quote_a_date": "2015-07-15",
+              "quote_b": "We undertook this study because we were conscious of that. We wanted to get a handle on the nature and extent of low-hour contracts and the survey has made a useful...",
+              "quote_b_date": "2016-01-20",
+              "severity": 1,
+              "explanation": "In July 2015, Nash suggested existing protections were adequate, but by January 2016 he acknowledged the need for a study to understand the extent of problematic low-hour contracts, indicating previous safeguards were insufficient."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "644",
+          "name": "Duncan Smith",
+          "constituency": "Dublin Fingal East",
+          "photo": "https://www.kildarestreet.com/images/mps/644.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "Gaza",
+              "quote_a": "Given the slaughter, the genocide and the last 20 months of horror, to wake up to the news, as we did this morning, that perhaps there will be a 60-day ceasefire will be welcomed by most people. Of course we will welcome it if it happens but for a number of reasons it is hard to have confidence in a ceasefire in this conflict.",
+              "quote_a_date": "2025-07-02",
+              "quote_b": "The ceasefire is Gaza is a ceasefire only in name. Bombardments continue. People continue to be killed daily. Aid continues to be blocked.",
+              "quote_b_date": "2026-03-26",
+              "severity": 1,
+              "explanation": "Duncan Smith initially expressed cautious hope about a potential ceasefire despite reservations, but later characterized an actual ceasefire agreement as merely nominal with ongoing violence, suggesting his skepticism was either vindicated or he shifted from conditional support to outright rejection."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "9",
+          "name": "Ivana Bacik",
+          "constituency": "Dublin Bay South",
+          "photo": "https://www.kildarestreet.com/images/mps/9.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "eviction_ban",
+              "quote_a": "His response was rather lukewarm on the prospect of a temporary eviction ban.",
+              "quote_a_date": "2022-10-18",
+              "quote_b": "We welcome the Government's U-turn on the winter eviction ban and the announcement earlier. It represents a real change since Thursday when I questioned the Tánaiste on it then.",
+              "quote_b_date": "2022-10-18",
+              "severity": 1,
+              "explanation": "Within the same speech on 2022-10-18, Bacik first criticizes the Tánaiste's lukewarm response to an eviction ban, then immediately welcomes the Government's U-turn on the same issue announced earlier that day, indicating confusion or contradiction about the timing and her own prior statements."
+            },
+            {
+              "topic": "Iran_conflict",
+              "quote_a": "The attacks carried out by the United States and Israel represent a flagrant violation of international law.",
+              "quote_a_date": "2026-03-03",
+              "quote_b": "To be fair, however, one thing we can be glad about is that the Taoiseach did push back against some of Trump's comments on immigration. I was pleased to hear the Taoiseach defend Europe and European migration policy",
+              "quote_b_date": "2026-03-18",
+              "severity": 1,
+              "explanation": "Bacik strongly condemns US and Israeli attacks on Iran as illegal, yet later praises the Taoiseach for defending Europe to Trump without demanding similar clarity on the Iran conflict despite calling it an illegal war elsewhere."
+            },
+            {
+              "topic": "government_rental_policy",
+              "quote_a": "We welcome the Government's U-turn on the winter eviction ban and the announcement earlier.",
+              "quote_a_date": "2022-10-18",
+              "quote_b": "At the weekend, the Taoiseach's appalling new rules for renters came into effect...we learned of the eviction notices issued to 36 homes in Wexford. The Government is now presiding over the highest level of evictions since the Famine.",
+              "quote_b_date": "2026-03-03",
+              "severity": 2,
+              "explanation": "Bacik welcomed the Government's eviction ban policy in October 2022, but by March 2026 harshly condemns the Government's rental rules as causing the highest eviction levels since the Famine, suggesting the policy either failed dramatically or her initial assessment was overly optimistic."
+            }
+          ],
+          "say_vs_vote": null
+        }
+      ]
+    },
+    {
+      "name": "Social Democrats",
+      "slug": "sd",
+      "tds": [
+        {
+          "id": "578",
+          "name": "Aidan Farrelly",
+          "constituency": "Kildare North",
+          "photo": "https://www.kildarestreet.com/images/mps/578.jpg",
+          "score": 75,
+          "contradictions": [
+            {
+              "topic": "child_detention",
+              "quote_a": "I have mixed emotions on it, I have mixed views on it and I do not really know where I stand on it yet.",
+              "quote_a_date": "2026-02-18",
+              "quote_b": "I truthfully cannot believe we are here legislating for the detention of innocent children. It is shocking that they can have committed no crime and done nothing wrong, yet we are legislating for their detention.",
+              "quote_b_date": "2026-02-25",
+              "severity": 2,
+              "explanation": "Farrelly moved from expressing mixed views and uncertainty about child detention legislation to an unequivocal condemnation of it as shocking and unbelievable."
+            },
+            {
+              "topic": "child_detention",
+              "quote_a": "To be honest, I have come around to the idea of this project. At the start I was quite cautious...",
+              "quote_a_date": "2026-02-19",
+              "quote_b": "Tonight this Government is about to make history by legislating for the ability to detain innocent children for doing nothing wrong.",
+              "quote_b_date": "2026-02-25",
+              "severity": 2,
+              "explanation": "Farrelly stated he had come around to supporting the project on February 19th, but by February 25th was condemning the government for legislating to detain innocent children without qualification or support."
+            },
+            {
+              "topic": "amendment_support",
+              "quote_a": "With regard to amendment No. 20, I am fully supportive of amendment No. 10.",
+              "quote_a_date": "2026-02-18",
+              "quote_b": "My thoughts on this amendment specifically are on the record from last week and, unlike others, I will not repeat them here tonight just because I have another opportunity to take the microphone.",
+              "quote_b_date": "2026-02-25",
+              "severity": 1,
+              "explanation": "Farrelly expressed full support for amendments on February 18th but later distanced himself from repeating those views, suggesting a shift in his position on the legislation."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "510",
+          "name": "Gary Gannon",
+          "constituency": "Dublin Central",
+          "photo": "https://www.kildarestreet.com/images/mps/510.jpg",
+          "score": 85,
+          "contradictions": [
+            {
+              "topic": "Coal",
+              "quote_a": "from which Ireland, through the ESB, purchased much of its coal supply until 2018",
+              "quote_a_date": "2022-05-12",
+              "quote_b": "My question pertains to the fact that the Government, through the ESB, is back purchasing coal from the Cerrejón mine in Colombia",
+              "quote_b_date": "2022-06-02",
+              "severity": 1,
+              "explanation": "Gannon states Ireland stopped purchasing coal from Cerrejón in 2018, but later questions why the government has resumed purchasing from the same mine, indicating a resumption of trade with a source previously abandoned."
+            },
+            {
+              "topic": "Britain_asylum",
+              "quote_a": "Britain has moved from being a safe third country because of its Rwanda policy. The Irish courts found that they could not ensure that people who were returned to Britain would be safe from harm.",
+              "quote_a_date": "2026-02-18",
+              "quote_b": "I accept that the policy of redesignating Britain as a safe third country is because we think Keir Starmer is a lot friendlier than Nigel Farage or whoever may be coming next",
+              "quote_b_date": "2026-02-18",
+              "severity": 2,
+              "explanation": "Gannon simultaneously argues that Britain is unsafe due to its Rwanda policy (suggesting legal/systemic issues) while also accepting that redesignating it as safe is based on political personalities rather than systemic safety concerns, which are contradictory rationales."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "532",
+          "name": "Jennifer Whitmore",
+          "constituency": "Wicklow",
+          "photo": "https://www.kildarestreet.com/images/mps/532.jpg",
+          "score": 85,
+          "contradictions": [
+            {
+              "topic": "Data centres",
+              "quote_a": "The best way to reduce our emissions is not to allow them to grow in the first place. There should have been some demand management when it came to this growth.",
+              "quote_a_date": "2022-06-29",
+              "quote_b": "It is really important that the Government has stood strong with the carbon tax and it is being very clear that it is to be ring-fenced for climate action.",
+              "quote_b_date": "2026-03-25",
+              "severity": 2,
+              "explanation": "Whitmore criticises lack of demand management for data centres in 2022 as harmful to emissions, but later appears to accept carbon tax mechanisms without addressing how this resolves the fundamental contradiction of unchecked data centre growth."
+            },
+            {
+              "topic": "Asylum accommodation",
+              "quote_a": "I absolutely... The Government created this situation where there is a vacuum of information and supports and that is feeding what we are seeing now.",
+              "quote_a_date": "2026-02-25",
+              "quote_b": "People were working with those within the IPAS system and getting them involved in Tidy Towns. They were out painting railings. There were groups like Bray Welcomes, Wicklow Welcomes, Blessington Welcomes and Newtown Together - so many groups and people within communities who recognised that this situation was a difficult one and that there was no perfect answer, and that actually the best...",
+              "quote_b_date": "2026-02-25",
+              "severity": 2,
+              "explanation": "Within the same date, Whitmore simultaneously blames the Government for creating a vacuum that feeds anti-asylum sentiment, while also praising community groups for accepting the situation as having 'no perfect answer,' contradicting whether Government failure or community pragmatism is the key issue."
+            },
+            {
+              "topic": "Climate policy priorities",
+              "quote_a": "climate action always plays second fiddle to every other... One of the reasons I am really worried about this is because climate action always plays second fiddle to every other",
+              "quote_a_date": "2026-03-25",
+              "quote_b": "Nevertheless, out of crisis can come opportunity, and with an...",
+              "quote_b_date": "2022-09-28",
+              "severity": 1,
+              "explanation": "Whitmore shifts from framing the energy/climate crisis as an opportunity for positive change in 2022 to arguing in 2026 that climate action is perpetually deprioritised, suggesting inconsistent optimism about whether crises enable or hinder climate progress."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "506",
+          "name": "Holly Cairns",
+          "constituency": "Cork South-West",
+          "photo": "https://www.kildarestreet.com/images/mps/506.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "CAP",
+              "quote_a": "I have repeatedly sought clarification on the Government's position on the CAP negotiations, and that the Dáil could vote on those proposals. Regrettably, the Minister's replies have been vague and there has not been any scrutiny or accountability in relation to his position on the CAP, not to mention a vote.",
+              "quote_a_date": "2021-06-16",
+              "quote_b": "Over the past few months in our discussions of the Common Agriculture Policy, CAP, the Minister has repeatedly informed me that his position is to seek as much national discrepancy, or flexibility as he calls it, as possible for CAP funding.",
+              "quote_b_date": "2021-06-17",
+              "severity": 1,
+              "explanation": "On June 16, Cairns criticizes the Minister for being vague on CAP, but the next day she confirms the Minister has repeatedly informed her of his specific position to seek maximum flexibility, contradicting the claim of vagueness."
+            }
+          ],
+          "say_vs_vote": null
+        },
+        {
+          "id": "574",
+          "name": "Jen Cummins",
+          "constituency": "Dublin South Central",
+          "photo": "https://www.kildarestreet.com/images/mps/574.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "SNA-cuts",
+              "quote_a": "At a time when we should be increasing the support for our students, the Government - despite saying disability is a priority - seems determined to make it more difficult for children to get adequate support. The new SNA review guidelines appear focused on gatekeeping and rationing and not supporting children.",
+              "quote_a_date": "2025-09-23",
+              "quote_b": "I want to speak with the Taoiseach about SNAs. I know he has been very involved with SNAs and everything to do with education, and I have praised his efforts in the past and will continue to do that because it is really important that we build bridges in this Chamber and work together.",
+              "quote_b_date": "2026-02-24",
+              "severity": 1,
+              "explanation": "Initially heavily critical of Government's SNA approach as determined to make support difficult, but later praised the Taoiseach's efforts on SNAs and commitment to working together on the issue."
+            },
+            {
+              "topic": "NCSE-deadline",
+              "quote_a": "This is fantastic because it means the process is supposed to move on further.",
+              "quote_a_date": "2025-11-13",
+              "quote_b": "I have raised several times that the 1 October cut-off point has been very detrimental to parents and I am still hearing they are not being assisted after the cut-off date.",
+              "quote_b_date": "2026-02-12",
+              "severity": 2,
+              "explanation": "Initially praised the 1 October NCSE deadline as 'fantastic,' but subsequently characterized it as 'very detrimental to parents' and raised it multiple times as a problem."
+            }
+          ],
+          "say_vs_vote": null
+        }
+      ]
+    },
+    {
+      "name": "Green Party",
+      "slug": "green",
+      "tds": [
+        {
+          "id": "490",
+          "name": "Roderic O'Gorman",
+          "constituency": "Dublin West",
+          "photo": "https://www.kildarestreet.com/images/mps/490.jpg",
+          "score": 92,
+          "contradictions": [
+            {
+              "topic": "emissions",
+              "quote_a": "Over Christmas, the Minister raised the white flag on our 2030 emissions targets four years ahead of schedule.",
+              "quote_a_date": "2026-01-15",
+              "quote_b": "Climate change means these floods are going to become more regular and more severe. That is why the approach the...",
+              "quote_b_date": "2026-02-11",
+              "severity": 1,
+              "explanation": "O'Gorman strongly criticized the government for abandoning 2030 emissions targets in January, but by February appeared to be discussing climate action as if the government remained committed to meaningful targets."
+            },
+            {
+              "topic": "process",
+              "quote_a": "I am disappointed in that approach. I believe it would be better to allow the Bill to be debated in more in depth on...",
+              "quote_a_date": "2026-01-29",
+              "quote_b": "I share many of the concerns raised by colleagues in terms of the process being adopted here and the fact that we are treating some really valuable amendments via a committee of the whole Dáil rather than at the justice committee.",
+              "quote_b_date": "2026-02-18",
+              "severity": 1,
+              "explanation": "O'Gorman criticized delayed/truncated legislative processes in both instances but framed them differently, suggesting inconsistency in his standards for procedural criticism."
+            }
+          ],
+          "say_vs_vote": null
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-03-27T13:27:53.134Z"
+}
