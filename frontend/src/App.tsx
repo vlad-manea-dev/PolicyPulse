@@ -70,7 +70,9 @@ export default function App() {
                   onClick={() => handlePersonClick(person)}
                 >
                   <div className="person-avatar-large" style={{ backgroundColor: selectedParty.color }}>
-                    {person.name.charAt(0)}
+                    {person.photo
+                      ? <img src={person.photo} alt={person.name} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
+                      : person.name.charAt(0)}
                   </div>
                   <div className="person-info-large">
                     <div className="person-name">{person.name}</div>

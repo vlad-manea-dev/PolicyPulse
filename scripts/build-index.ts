@@ -111,8 +111,10 @@ async function main() {
     generated_at: new Date().toISOString(),
   };
 
-  writeFileSync("data/all-scores.json", JSON.stringify(out, null, 2));
-  console.log(`Wrote data/all-scores.json`);
+  const json = JSON.stringify(out, null, 2);
+  writeFileSync("data/all-scores.json", json);
+  writeFileSync("frontend/src/data/all-scores.json", json);
+  console.log(`Wrote data/all-scores.json + frontend/src/data/all-scores.json`);
   console.log(`${scoredTDs}/${totalTDs} TDs have scores`);
   for (const p of parties) {
     const avg = p.tds.length
