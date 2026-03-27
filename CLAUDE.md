@@ -48,6 +48,7 @@ React + TypeScript (Create React App). No router — view state managed in `App.
 **Views:**
 - Home: party grid → click → Party view
 - Party: logo, description, political compass, TD cards with photos
+- Politician: TD profile with score bar, contradiction cards (quote A vs quote B, dates, severity dots, analysis)
 - Leaderboard: all TDs sorted by contradiction score with filter/sort controls
 
 **Data flow:** `frontend/src/data/parties.ts` imports `all-scores.json` and merges real TD data (name, constituency, photo, score, contradictions) with static party metadata (color, logo, description, compass position). `contradictionScore = 100 - consistency_score`.
@@ -60,7 +61,6 @@ cd frontend && npm start   # dev server at localhost:3000
 ## What still needs to be done
 
 - **Speech quality fix** — fetch from multiple time-spread pages per TD (see above)
-- **Politician detail screen** — clicking a TD card should open a screen showing their score, top 3 contradiction pairs (quote A vs quote B with dates, severity badge), and say-vs-vote section if data exists (currently `handlePersonClick` just logs to console)
 - **Say vs. Vote** — hit Oireachtas `/votes` for pre-selected bill IDs (Housing for All, Sláintecare, Climate Action Act 2021) and ask Claude to align statements vs. vote record. Store in `say_vs_vote` field of score file.
 - **Party average scores** — show avg consistency score on party cards on the home screen
 - **Polish** — responsive layout check, demo script prep (pre-identify 2 TDs with most dramatic contradictions)
@@ -86,6 +86,7 @@ frontend/
       all-scores.json  # copy of data/all-scores.json (kept in sync by build-index.ts)
     components/
       LeaderboardPage.tsx
+      PoliticianPage.tsx   # TD detail screen
       PoliticalCompass.tsx
       PodiumAnimation.tsx
 ```
