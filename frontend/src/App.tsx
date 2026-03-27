@@ -5,9 +5,10 @@ import PodiumAnimation from './components/PodiumAnimation'
 import PoliticalCompass from './components/PoliticalCompass'
 import LeaderboardPage from './components/LeaderboardPage'
 import PoliticianPage from './components/PoliticianPage'
+import MatchPage from './components/MatchPage'
 
 export default function App() {
-  const [view, setView] = useState<'home' | 'party' | 'leaderboard' | 'politician'>('home')
+  const [view, setView] = useState<'home' | 'party' | 'leaderboard' | 'politician' | 'match'>('home')
   const [selectedParty, setSelectedParty] = useState<Party | null>(null)
   const [selectedPolitician, setSelectedPolitician] = useState<Politician | null>(null)
 
@@ -28,6 +29,10 @@ export default function App() {
 
   if (view === 'leaderboard') {
     return <LeaderboardPage onBack={() => setView('home')} />
+  }
+
+  if (view === 'match') {
+    return <MatchPage onBack={() => setView('home')} />
   }
 
   if (view === 'politician' && selectedPolitician && selectedParty) {
@@ -117,6 +122,9 @@ export default function App() {
 
       <main className="centered-main">
         <div className="home-nav">
+          <button className="leaderboard-btn" onClick={() => setView('match')}>
+            Find Your Match →
+          </button>
           <button className="leaderboard-btn" onClick={() => setView('leaderboard')}>
             Contradiction Leaderboard →
           </button>

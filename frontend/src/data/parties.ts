@@ -19,6 +19,17 @@ export interface Politician {
   contradictions?: Contradiction[]
 }
 
+export interface PartyIssueStances {
+  housing: number        // 0–10: how strongly they address this issue
+  costOfLiving: number
+  healthcare: number
+  agriculture: number
+  climate: number
+  infrastructure: number
+  publicServices: number
+  borderIssues: number
+}
+
 export interface Party {
   id: string
   name: string
@@ -28,6 +39,7 @@ export interface Party {
   detailLogoUrl?: string     // transparent-bg version for the party detail page
   description: string
   compass: { economic: number; social: number }  // economic: -10 (left) to +10 (right), social: -10 (libertarian) to +10 (authoritarian)
+  stances: PartyIssueStances
   people: Politician[]
 }
 
@@ -50,6 +62,7 @@ const PARTY_META: Omit<Party, 'people'>[] = [
     logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Fianna_F%C3%A1il_logo_%282024%29.svg/500px-Fianna_F%C3%A1il_logo_%282024%29.svg.png',
     description: "One of Ireland's two dominant centre-right parties, founded in 1926. Traditionally rooted in Irish republicanism, it has shifted to pragmatic centrism over decades in government, championing a mixed economy, rural Ireland, and EU membership.",
     compass: { economic: 2, social: 2 },
+    stances: { housing: 5, costOfLiving: 5, healthcare: 6, agriculture: 8, climate: 4, infrastructure: 6, publicServices: 6, borderIssues: 5 },
   },
   {
     id: 'fine-gael',
@@ -60,6 +73,7 @@ const PARTY_META: Omit<Party, 'people'>[] = [
     detailLogoUrl: '/assets/fg_logo_nobg.png',
     description: "Ireland's largest centre-right party, tracing its roots to the pro-Treaty side of the 1922 Civil War. Fine Gael champions free-market economics, fiscal responsibility, and strong EU ties. It is seen as the establishment party of business and the professional middle class.",
     compass: { economic: 4, social: 1 },
+    stances: { housing: 5, costOfLiving: 5, healthcare: 6, agriculture: 6, climate: 5, infrastructure: 7, publicServices: 5, borderIssues: 4 },
   },
   {
     id: 'sinn-fein',
@@ -70,6 +84,7 @@ const PARTY_META: Omit<Party, 'people'>[] = [
     detailLogoUrl: '/assets/sf_logo_nobg.png',
     description: "A left-wing republican party with roots in the Irish independence movement. Sinn Féin advocates for Irish unity, public housing, higher corporate taxes, and a strong welfare state. Its surge in recent elections was driven by young, urban voters frustrated with housing and the cost of living.",
     compass: { economic: -5, social: -1 },
+    stances: { housing: 10, costOfLiving: 9, healthcare: 8, agriculture: 5, climate: 6, infrastructure: 7, publicServices: 9, borderIssues: 9 },
   },
   {
     id: 'green-party',
@@ -79,6 +94,7 @@ const PARTY_META: Omit<Party, 'people'>[] = [
     logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Green_Party_%28Ireland%29_logo.svg/500px-Green_Party_%28Ireland%29_logo.svg.png',
     description: "Places environmental sustainability at the core of its platform, pushing for ambitious climate action and a just transition away from fossil fuels. The Green Party entered government in 2020 and delivered the landmark Climate Action Act. Its policies appeal to urban, educated voters concerned about the climate crisis.",
     compass: { economic: -2, social: -4 },
+    stances: { housing: 6, costOfLiving: 6, healthcare: 6, agriculture: 5, climate: 10, infrastructure: 6, publicServices: 7, borderIssues: 3 },
   },
   {
     id: 'labour',
@@ -88,6 +104,7 @@ const PARTY_META: Omit<Party, 'people'>[] = [
     logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/The_logo_of_Labour_Party_in_Ireland_2021.svg/500px-The_logo_of_Labour_Party_in_Ireland_2021.svg.png',
     description: "Ireland's oldest party and the traditional voice of the organised working class and trade union movement. Labour advocates for workers' rights, public services, and progressive taxation. It is rebuilding under Ivana Bacik after a collapse in support following the 2011–2016 austerity coalition.",
     compass: { economic: -4, social: -2 },
+    stances: { housing: 7, costOfLiving: 8, healthcare: 8, agriculture: 4, climate: 6, infrastructure: 6, publicServices: 9, borderIssues: 4 },
   },
   {
     id: 'social-democrats',
@@ -97,6 +114,7 @@ const PARTY_META: Omit<Party, 'people'>[] = [
     logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Social_Democrats_%28Ireland%29_logo.svg/500px-Social_Democrats_%28Ireland%29_logo.svg.png',
     description: "Founded in 2015, the Social Democrats push for a Nordic-style model in Ireland — prioritising public investment in housing, healthcare, and education. They strongly support Dáil reform, transparency, and evidence-based policy. A credible third-party voice for reform-minded, urban voters.",
     compass: { economic: -4, social: -5 },
+    stances: { housing: 9, costOfLiving: 8, healthcare: 9, agriculture: 4, climate: 7, infrastructure: 7, publicServices: 10, borderIssues: 3 },
   },
 ]
 
