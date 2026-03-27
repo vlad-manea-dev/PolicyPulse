@@ -1,20 +1,38 @@
 import { Politician, Party, Contradiction } from '../data/parties'
 import './PoliticianPage.css'
 
-const SCORE_LABEL = (score: number): string => {
-  if (score >= 80) return 'Chronic'
-  if (score >= 60) return 'Frequent'
-  if (score >= 40) return 'Moderate'
-  if (score >= 20) return 'Rare'
-  return 'Clean'
+// followThrough = 100 - contradictionScore, higher is better
+const SCORE_LABEL = (ft: number): string => {
+  if (ft >= 80) return 'Excellent'
+  if (ft >= 60) return 'Good'
+  if (ft >= 40) return 'Mixed'
+  if (ft >= 20) return 'Poor'
+  return 'Very Poor'
 }
 
-const SCORE_COLOR = (score: number): string => {
-  if (score >= 80) return '#b02a2a'
-  if (score >= 60) return '#c0622a'
-  if (score >= 40) return '#b08a00'
-  if (score >= 20) return '#4a773c'
-  return '#287556'
+const SCORE_COLOR = (ft: number): string => {
+  if (ft >= 80) return '#287556'
+  if (ft >= 60) return '#4a773c'
+  if (ft >= 40) return '#b08a00'
+  if (ft >= 20) return '#c0622a'
+  return '#b02a2a'
+}
+
+const GRADE = (ft: number): string => {
+  if (ft >= 90) return 'A+'
+  if (ft >= 80) return 'A'
+  if (ft >= 70) return 'B+'
+  if (ft >= 60) return 'B'
+  if (ft >= 50) return 'C+'
+  if (ft >= 40) return 'C'
+  if (ft >= 25) return 'D'
+  return 'F'
+}
+
+const ordinal = (n: number): string => {
+  const s = ['th','st','nd','rd']
+  const v = n % 100
+  return n + (s[(v - 20) % 10] ?? s[v] ?? s[0])
 }
 
 const SEVERITY_COLOR = (severity: 1 | 2 | 3): string => {
@@ -107,10 +125,17 @@ export default function PoliticianPage({
   party: Party
   onBack: () => void
 }) {
-  const score = politician.contradictionScore ?? 0
+  const contradictionScore = politician.contradictionScore ?? 0
+  const followThrough = 100 - contradictionScore
   const contradictions = (politician.contradictions ?? [])
     .slice()
     .sort((a, b) => b.severity - a.severity)
+
+  // rank within party by follow-through (highest = 1st)
+  const partyRank = [...party.people]
+    .sort((a, b) => (b.contradictionScore != null && a.contradictionScore != null)
+      ? a.contradictionScore - b.contradictionScore : 0)
+    .findIndex(p => p.name === politician.name) + 1
 
   return (
     <div className="app politician-mode">
@@ -137,6 +162,14 @@ export default function PoliticianPage({
               {party.name}
             </span>
           </div>
+          <div className="politician-grade-block">
+            <span className="politician-grade" style={{ color: SCORE_COLOR(followThrough) }}>
+              {GRADE(followThrough)}
+            </span>
+            <span className="politician-rank">
+              {ordinal(partyRank)} in {party.name}
+            </span>
+          </div>
         </div>
       </header>
 
@@ -145,21 +178,21 @@ export default function PoliticianPage({
           <div className="politician-content">
             <div className="score-section">
               <div className="score-row">
-                <span className="score-section-label">Contradiction Score</span>
-                <span className="score-value" style={{ color: SCORE_COLOR(score) }}>
-                  {score}
+                <span className="score-section-label">Follow Through Score</span>
+                <span className="score-value" style={{ color: SCORE_COLOR(followThrough) }}>
+                  {followThrough}
                 </span>
                 <span
                   className="score-badge"
-                  style={{ color: SCORE_COLOR(score), borderColor: SCORE_COLOR(score) }}
+                  style={{ color: SCORE_COLOR(followThrough), borderColor: SCORE_COLOR(followThrough) }}
                 >
-                  {SCORE_LABEL(score)}
+                  {SCORE_LABEL(followThrough)}
                 </span>
               </div>
               <div className="score-track">
                 <div
                   className="score-fill"
-                  style={{ width: `${score}%`, backgroundColor: SCORE_COLOR(score) }}
+                  style={{ width: `${followThrough}%`, backgroundColor: SCORE_COLOR(followThrough) }}
                 />
               </div>
             </div>

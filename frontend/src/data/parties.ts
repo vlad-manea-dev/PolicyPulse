@@ -60,6 +60,18 @@ const TD_TITLES: Record<string, string> = {
   '287': 'Former Party Leader',
 }
 
+const TITLE_RANK: Record<string, number> = {
+  'Taoiseach':               1,
+  'Tánaiste':                2,
+  'Party Leader':            3,
+  'Minister for Agriculture':4,
+  'Minister of State':       5,
+  'Finance Spokesperson':    6,
+  'Former Party Leader':     7,
+  'Former Ceann Comhairle':  8,
+  'TD':                      9,
+}
+
 // Maps slug from all-scores.json → party id used in PARTY_META
 const SLUG_TO_ID: Record<string, string> = {
   ff:     'fianna-fail',
@@ -149,8 +161,7 @@ export const PARTIES: Party[] = PARTY_META.map(meta => ({
     title: TD_TITLES[td.id] ?? 'TD',
     photo: td.photo,
     tdId: td.id,
-    // consistency_score (100=consistent) inverted to contradictionScore (100=most contradictions)
     contradictionScore: 100 - td.score,
     contradictions: td.contradictions as Contradiction[],
-  })),
+  })).sort((a, b) => (TITLE_RANK[a.title ?? 'TD'] ?? 9) - (TITLE_RANK[b.title ?? 'TD'] ?? 9)),
 }))
