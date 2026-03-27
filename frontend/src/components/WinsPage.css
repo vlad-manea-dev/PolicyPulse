@@ -1,5 +1,5 @@
 .wins-mode {
-  background: #f0f7ec;
+  background: #fff1e5;
 }
 
 .wins-date-note {
@@ -181,5 +181,5 @@
 .wins-mode .pill.active {
   background: #1a1a1a;
   border-color: #1a1a1a;
-  color: #f0f7ec;
+  color: #fff1e5;
 }

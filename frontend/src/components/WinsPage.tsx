@@ -28,20 +28,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   social: 'Social',
 }
 
-const CATEGORY_ICONS: Record<string, string> = {
-  housing: '🏠',
-  healthcare: '🏥',
-  climate: '🌿',
-  economy: '📈',
-  agriculture: '🌾',
-  infrastructure: '🚇',
-  publicServices: '🏛️',
-  education: '🎓',
-  justice: '⚖️',
-  borderIssues: '🤝',
-  costOfLiving: '💶',
-  social: '👥',
-}
+const CATEGORY_ICONS: Record<string, string> = {}
 
 function formatDate(dateStr: string): string {
   if (!dateStr) return ''
@@ -132,7 +119,7 @@ export default function WinsPage() {
                   className={`pill ${filterCategory === cat ? 'active' : ''}`}
                   onClick={() => setFilterCategory(cat)}
                 >
-                  {CATEGORY_ICONS[cat] ?? ''} {CATEGORY_LABELS[cat] ?? cat}
+                  {CATEGORY_LABELS[cat] ?? cat}
                 </button>
               ))}
             </div>
@@ -157,7 +144,7 @@ export default function WinsPage() {
                     {win.partyName}
                   </span>
                   <span className="win-category-badge">
-                    {CATEGORY_ICONS[win.category] ?? ''} {CATEGORY_LABELS[win.category] ?? win.category}
+                    {CATEGORY_LABELS[win.category] ?? win.category}
                   </span>
                 </div>
                 <h3 className="win-title">{win.title}</h3>
