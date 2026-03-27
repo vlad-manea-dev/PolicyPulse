@@ -12,19 +12,37 @@ body {
   line-height: 1.5;
 }
 
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;
+  padding: 3rem 5%;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.page-content.party-mode,
+.page-content.leaderboard-mode,
+.page-content.match-page-mode {
+  max-width: 100%;
+}
+
+.party-page-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* legacy .app kept for any leftover refs */
 .app {
   max-width: 1400px;
   width: 95%;
   margin: 0 auto;
   padding: 3rem 0;
-}
-
-.party-mode {
-  background: #fff1e5;
-  min-height: 100vh;
-  max-width: 100%;
-  width: 100%;
-  padding: 3rem 5%;
 }
 
 header {
@@ -456,33 +474,6 @@ blockquote footer a {
   width: 100%;
 }
 
-.home-nav {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
-  flex-wrap: wrap;
-}
-
-.leaderboard-btn {
-  background: #1a1a1a;
-  color: #fff1e5;
-  border: 2px solid #1a1a1a;
-  padding: 0.75rem 2rem;
-  font-size: 1rem;
-  font-weight: 800;
-  cursor: pointer;
-  box-shadow: 4px 4px 0px #888;
-  transition: transform 0.1s, box-shadow 0.1s;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.leaderboard-btn:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0px #1a1a1a;
-}
 
 .centered-grid {
   display: grid;

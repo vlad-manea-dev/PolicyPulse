@@ -27,7 +27,7 @@ const SCORE_COLOR = (score: number): string => {
   return '#287556'
 }
 
-export default function LeaderboardPage({ onBack }: { onBack: () => void }) {
+export default function LeaderboardPage() {
   const [filterParty, setFilterParty] = useState<string>('all')
   const [sortBy, setSortBy] = useState<'score' | 'name'>('score')
   const [hoveredRow, setHoveredRow] = useState<number | null>(null)
@@ -58,9 +58,8 @@ export default function LeaderboardPage({ onBack }: { onBack: () => void }) {
   const topScore = filtered[0]?.score ?? 100
 
   return (
-    <div className="app leaderboard-mode">
+    <div className="page-content leaderboard-mode">
       <header>
-        <button className="back-btn" onClick={onBack}>← Back to Parties</button>
         <h1>Contradiction Leaderboard</h1>
         <p className="subtitle">Ranked by how often their Dáil record contradicts their public promises</p>
       </header>

@@ -48,7 +48,7 @@ const DEFAULT_WEIGHTS: IssueWeights = {
   climate: 5, infrastructure: 5, publicServices: 5, borderIssues: 5,
 }
 
-export default function MatchPage({ onBack }: { onBack: () => void }) {
+export default function MatchPage() {
   const [eircode, setEircode] = useState('')
   const [region, setRegion] = useState<ReturnType<typeof getRegionFromEircode>>(null)
   const [weights, setWeights] = useState<IssueWeights>(DEFAULT_WEIGHTS)
@@ -79,9 +79,8 @@ export default function MatchPage({ onBack }: { onBack: () => void }) {
   const topScore = results[0]?.score ?? 100
 
   return (
-    <div className="app match-page-mode">
+    <div className="page-content match-page-mode">
       <header>
-        <button className="back-btn" onClick={onBack}>← Back to Parties</button>
         <h1>Find Your Match</h1>
         <p className="subtitle">Enter your Eircode, adjust what matters to you, and see which party best represents your priorities.</p>
       </header>
@@ -111,7 +110,7 @@ export default function MatchPage({ onBack }: { onBack: () => void }) {
                 <span className="region-dot" />
                 <div>
                   <div className="region-detected-name">{region.name}</div>
-                  <div className="region-detected-hint">Sliders pre-filled for your area — adjust to match your own priorities</div>
+                  <div className="region-detected-hint">Sliders pre-filled for your area. Adjust to match your own priorities.</div>
                 </div>
               </div>
             )}
