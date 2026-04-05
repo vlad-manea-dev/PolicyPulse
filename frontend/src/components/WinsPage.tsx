@@ -28,8 +28,6 @@ const CATEGORY_LABELS: Record<string, string> = {
   social: 'Social',
 }
 
-const CATEGORY_ICONS: Record<string, string> = {}
-
 function formatDate(dateStr: string): string {
   if (!dateStr) return ''
   const parts = dateStr.split('-')
